@@ -1,0 +1,47 @@
+.wrap{
+	background: #C5CAE9;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	width: 400px;
+	height: 250px;
+	position: relative;
+	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
+
+}
+.front, .back{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	transition: 1s all ease;
+	backface-visibility: hidden; /*скрываем тыльную часть карточки, это нужно что бы не видеть тыльную часть после поворота на 180 градусов*/
+	border-radius: 20px;
+}
+.front{
+	background-color: #3F51B5;
+}
+.back{
+	background-color: #BDBDBD;
+	transform: rotateY(180deg);
+}
+.card:hover .front{
+	transform: rotateY(180deg);/*Переворачиваем карточку*/
+}
+.card:hover .back{
+	transform: rotateY(360deg);/*Т.к уже перевернута на 180, то при наведении переворачиваем на 360*/
+}
