@@ -1,9 +1,10 @@
 .section{
   perspective: 1000px;
 }
-.container{
+.container3d{
   width: 680px;
-  margin: auto;
+  margin-left: 300px;
+  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -19,12 +20,12 @@
 img{
   max-width: 100%;
 }
-.card{
-  width: 200px; 
+.card3d{
+  width: 300px; 
   margin: 10px;
   transition: 0.3s;
 }
-.card:hover{
+.card3d:hover{
   cursor: pointer;
   transform:translateZ(15px);
 }

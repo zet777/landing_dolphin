@@ -1,5 +1,5 @@
-$('.card').on('click', function () {
-	$('.container').toggleClass('container-origin');
+$('.card3d').on('click', function () {
+	$('.container3d').toggleClass('container-origin');
 })
 $('.menu-btn').on('click', function (e) {
 	e.preventDefault; /*отменяем стандартное событие*/
