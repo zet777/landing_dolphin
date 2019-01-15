@@ -1,6 +1,6 @@
 
 body{
-	background: url(../img/back.jpg) no-repeat ;
+	/*background: url(../img/back.jpg) no-repeat ;*/
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -193,11 +193,34 @@ section{
 	list-style-type:decimal;
 }
 .button{
+	margin: 0 auto;
 	color: #5165e2;
+	padding-left: 25px;
+	padding-right: 25px;
 	background: #fff;
 	border-left: 2px solid #5165e2;
 	border-right: 2px solid #5165e2;
 	font-size: 40px;
 	font-weight: 600;
 	text-align: center;
+	border-radius: 10px;
+	max-width: 90%;
+	cursor: pointer;
+	transition: all .6s ease;
 }
+.button:hover{
+	margin: 0 auto;
+	color: #5165e2;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #d4edff;
+	border-left: 2px solid #5165e2;
+	border-right: 2px solid #5165e2;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 90%;
+	cursor: pointer;
+}
+
