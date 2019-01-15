@@ -1,6 +1,6 @@
 
 body{
-	/*background: url(../img/back.jpg) no-repeat ;*/
+	background: url(../img/back.jpg) no-repeat ;
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -8,14 +8,14 @@ header{
 	max-width: 1280px;
 	display: flex!important;
 	justify-content: space-between;
-	background-color: #5165e2;
+	background-color: #5170e2bf;
 	margin: 0 auto;
 	flex-wrap: wrap;
 
 	
 }
 section{
-	background: #fff;
+	background: #ffffffe0;
 	max-width: 1280px;
 	display: flex!important;
 	justify-content: space-between;
@@ -27,7 +27,8 @@ section{
 
 }
 .dignity{
-	background-color: #c3cbfd;
+	background-color: #5170e2bf;
+	color: #fff;
 }
 .header-left{
 	color: #fff;
@@ -54,7 +55,7 @@ section{
 }
 
 .header-right{
-	width: 370px;
+	width: 320px;
 	height: 215px;
 	background-color: #fff;
 	margin-right: 50px;
@@ -62,7 +63,7 @@ section{
 }
 
 .about-right{
-	width: 370px;
+	width: 320px;
 	height: 215px;
 	background-color: #5165e2;
 	margin-right: 50px;
@@ -93,7 +94,9 @@ section{
 }
 
 .cntr{
+	max-width: 1280px;
 	text-align: center;
+	display: contents;
 }
 
 .dignity-left{
@@ -124,7 +127,8 @@ section{
 	background-position: 0 25px;
 }
 .hak{
-	background: #c3cbfd;
+	background: #5170e2bf;
+	color: #fff;
     max-width: 1280px;
     margin: 0 auto;
    	border-left: 1px solid #5165e2;
@@ -133,7 +137,7 @@ section{
 	padding-bottom: 35px;
 }
 .hakscr{
-	background: #fff;    
+	background: #ffffffe0;    
     max-width: 1280px;
     margin: 0 auto;
    	border-left: 1px solid #5165e2;
@@ -227,3 +231,4 @@ section{
 .fa{
 	padding-right: 4px;
 }
+

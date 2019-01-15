@@ -8,12 +8,19 @@
 	justify-content: center;
 	align-items: center;
 }
-.card{
-	width: 400px;
+.card-dl1{
+	width: 320px;
 	height: 250px;
 	position: relative;
 	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
-
+	background: #5165e2;
+}
+.card-dl2{
+	width: 320px;
+	height: 250px;
+	position: relative;
+	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
+	background: #fff;
 }
 .front, .back{
 	position: absolute;
@@ -39,9 +46,17 @@
 	background-color: #BDBDBD;
 	transform: rotateY(180deg);
 }
-.card:hover .front{
+
+.card-dl1:hover .front{
 	transform: rotateY(180deg);/*Переворачиваем карточку*/
 }
-.card:hover .back{
+.card-dl1:hover .back{
+	transform: rotateY(360deg);/*Т.к уже перевернута на 180, то при наведении переворачиваем на 360*/
+}
+
+.card-dl2:hover .front{
+	transform: rotateY(180deg);/*Переворачиваем карточку*/
+}
+.card-dl2:hover .back{
 	transform: rotateY(360deg);/*Т.к уже перевернута на 180, то при наведении переворачиваем на 360*/
 }
