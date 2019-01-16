@@ -9,13 +9,14 @@ header{
 	display: flex!important;
 	justify-content: space-between;
 	background-color: #2b8affbf;
+	border-left: 1px solid #5165e2;
+	border-right: 1px solid #5165e2;
 	margin: 0 auto;
 	flex-wrap: wrap;
 
 	
 }
 section{
-	background: #ffffffe0;
 	max-width: 1280px;
 	display: flex!important;
 	justify-content: space-between;
@@ -24,9 +25,16 @@ section{
 	border-right: 1px solid #5165e2;
 	box-sizing: border-box;
 	flex-wrap: wrap;
-
 }
-
+.header{
+	background-color: #2b8affbf;
+}
+.about{
+	background-color: #ffffffe0;
+}
+.buy{
+	background-color: #ffffffe0;
+}
 h1 {
     font-size: 2.1rem!important;
 }

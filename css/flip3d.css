@@ -39,10 +39,14 @@
 	border-radius: 20px;
 }
 .front{
-	background-color: #3F51B5;
+	background-color: #39f;
+	background-image: url(../img/card3d2.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
 }
 .back{
-	background-color: #BDBDBD;
+	background-color: #39f;
 	transform: rotateY(180deg);
 }
 
