@@ -65,6 +65,8 @@
 	cursor: pointer;
 }
 
+
+
 .card-dl1:hover .front{
 	transform: rotateY(180deg);/*Переворачиваем карточку*/
 }
@@ -78,3 +80,14 @@
 .card-dl2:hover .back{
 	transform: rotateY(360deg);/*Т.к уже перевернута на 180, то при наведении переворачиваем на 360*/
 }
+
+/* BEGIN CSS for dinamic.js */
+.rotate180 {
+	transform: rotateY(180deg);/*Переворачиваем карточку через скрипт*/
+}
+
+.rotate360 {
+	transform: rotateY(360deg);/*Переворачиваем карточку через скрипт*/
+}
+
+/* END CSS for bdinamic.js */
