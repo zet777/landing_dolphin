@@ -39,15 +39,30 @@
 	border-radius: 20px;
 }
 .front{
-	background-color: #39f;
-	background-image: url(../img/card3d2.jpg); 
-	background-repeat: no-repeat;
+	background-color: #39f;	
+}
+
+.front-header{
 	background-size: 100% 100%;
+	background-image: url(../img/card3d2.jpg);
+	background-repeat: no-repeat;
 
 }
+
+
 .back{
 	background-color: #39f;
 	transform: rotateY(180deg);
+}
+
+.back-header{
+	background-size: 100% 100%;
+	background-image: url(../img/format-a1.png);
+	background-repeat: no-repeat;
+}
+
+.scan-all:hover{
+	cursor: pointer;
 }
 
 .card-dl1:hover .front{

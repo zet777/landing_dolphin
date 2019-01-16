@@ -54,19 +54,29 @@
   
 
 </header>
+<script type="text/javascript">
+  $('.scan-all').on('over', function () {
+  $('.container3d').toggleClass('container-origin');
+})
+$('.menu-btn').on('click', function (e) {
+  e.preventDefault; /*отменяем стандартное событие*/
+  $(this).toggleClass('menu-btn_active');
+  $('.menu-nav').toggleClass('menu-nav_active');
+})
+</script>
 <section class="header">
   <div class="header-left">
       <h1>Оперативная печать чертежей и проектов</h1>
     <span class="header-left__check">ПЕЧАТЬ ЧЕРТЕЖЕЙ</span>
     <span class="header-left__check">ФАЛЬЦОВКА ЧЕРТЕЖЕЙ</span>
     <span class="header-left__check">БРОШЮРОВКА НА ПЛАСТИКОВУЮ ПРУЖИНУ</span>
-    <span class="header-left__check">СКАНИРОВАНИЕ ЛЮБЫХ ФОРМАТОВ ОТ А4 ДО А0.</span>
+    <span class="header-left__check scan-all">СКАНИРОВАНИЕ ЛЮБЫХ ФОРМАТОВ ОТ А4 ДО А0.</span>
   </div>
   <div class="header-right">
     <div class="wrap">
       <div class="card-dl1">
-        <div class="front"></div>
-        <div class="back"><span>СТОРОНА 2</span></div>
+        <div class="front front-header"></div>
+        <div class="back back-header"></div>
       </div>
     </div>
   </div>
