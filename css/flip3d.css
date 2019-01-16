@@ -1,5 +1,4 @@
 .wrap{
-	background: #C5CAE9;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -13,14 +12,14 @@
 	height: 250px;
 	position: relative;
 	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
-	background: #5165e2;
+	background: none;;
 }
 .card-dl2{
 	width: 320px;
 	height: 250px;
 	position: relative;
 	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
-	background: #fff;
+	background: none;;
 }
 .front, .back{
 	position: absolute;

@@ -57,7 +57,6 @@ section{
 .header-right{
 	width: 320px;
 	height: 215px;
-	background-color: #fff;
 	margin-right: 50px;
 	margin-top: 50px;	
 }
@@ -65,7 +64,6 @@ section{
 .about-right{
 	width: 320px;
 	height: 215px;
-	background-color: #5165e2;
 	margin-right: 50px;
 	margin-top: 50px;
 }
