@@ -1,6 +1,6 @@
 
 body{
-	background: url(../img/back.jpg) no-repeat ;
+	background: url(../img/back3.jpg) no-repeat ;
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -25,6 +25,10 @@ section{
 	box-sizing: border-box;
 	flex-wrap: wrap;
 
+}
+
+.h1, h1 {
+    font-size: 2.1rem!important;
 }
 
 .bg-yellow {
