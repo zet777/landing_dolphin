@@ -61,12 +61,6 @@
 	background-repeat: no-repeat;
 }
 
-.scan-all:hover{
-	cursor: pointer;
-}
-
-
-
 .card-dl1:hover .front{
 	transform: rotateY(180deg);/*Переворачиваем карточку*/
 }
@@ -89,5 +83,10 @@
 .rotate360 {
 	transform: rotateY(360deg);/*Переворачиваем карточку через скрипт*/
 }
+
+.hard-light{
+	background-blend-mode: hard-light;
+}
+
 
 /* END CSS for bdinamic.js */

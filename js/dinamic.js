@@ -13,3 +13,12 @@ function(){
 /*end*/
 
 
+/*$('.print').hover(
+function(){
+  $('.front-header').addClass('hard-light');
+  
+},
+function(){
+ $('.front-header').removeClass('hard-light');
+});
+*/
