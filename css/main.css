@@ -26,8 +26,13 @@ section{
 	flex-wrap: wrap;
 
 }
+
+.bg-yellow {
+    background: #ffff00!important;
+}
+
 .dignity{
-	background-color: #5170e2bf;
+	background-color: #2b8affbf;
 	color: #fff;
 }
 .header-left{
@@ -125,7 +130,7 @@ section{
 	background-position: 0 25px;
 }
 .hak{
-	background: #5170e2bf;
+	background: #2b8affbf;
 	color: #fff;
     max-width: 1280px;
     margin: 0 auto;
