@@ -1,6 +1,6 @@
 
 body{
-	background: #fff url(../img/back3pg) no-repeat ;
+	background: #fff url(../img/back3.jpg) no-repeat ;
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -27,7 +27,7 @@ section{
 
 }
 
-.h1, h1 {
+h1 {
     font-size: 2.1rem!important;
 }
 
