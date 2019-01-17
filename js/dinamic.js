@@ -13,7 +13,7 @@ function(){
 /*end*/
 
 
-/*$('.print').hover(
+$('.print').hover(
 function(){
   $('.front-header').addClass('hard-light');
   
@@ -21,4 +21,3 @@ function(){
 function(){
  $('.front-header').removeClass('hard-light');
 });
-*/

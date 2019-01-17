@@ -63,11 +63,10 @@ h1 {
 	padding-left: 37px;
 	padding-top: 20px;
 	font-size: 24px;
-	display: block;
 	background-image: url(../img/check-icon.png);
 	background-repeat: no-repeat;
 	background-position: 0 25px;
-	
+
 	
 	
 }
@@ -250,5 +249,14 @@ h1 {
 
 .fa{
 	padding-right: 4px;
+}
+
+.pointerY{
+	cursor: pointer;
+	transition: all .6s ease;
+}
+
+.pointerY:hover{
+	color: #ffff00;
 }
 
