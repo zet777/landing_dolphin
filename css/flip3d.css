@@ -12,16 +12,17 @@
 	height: 250px;
 	position: relative;
 	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
-	background: none;;
+	background: none;
+	transition: all .6s ease;
 }
 .card-dl2{
 	width: 320px;
 	height: 250px;
 	position: relative;
 	perspective: 1000px; /*Добавляем глубину, чтобы при повороти карточки был эффект 3D*/
-	background: none;;
+	background: none;
 }
-.front, .back{
+.front1, .back1{
 	position: absolute;
 	width:100%;
 	height: 100%;
@@ -38,8 +39,9 @@
 	backface-visibility: hidden; /*скрываем тыльную часть карточки, это нужно что бы не видеть тыльную часть после поворота на 180 градусов*/
 	border-radius: 20px;
 }
-.front{
+.front1{
 	background-color: #39f;	
+	box-shadow: 2px 2px 9px 0px #fff;
 }
 
 .front-header{
@@ -50,9 +52,10 @@
 }
 
 
-.back{
+.back1{
 	background-color: #39f;
 	transform: rotateY(180deg);
+	box-shadow: 2px 2px 9px 0px #fff;
 }
 
 .back-header{
@@ -60,6 +63,19 @@
 	background-image: url(../img/format-a1.png);
 	background-repeat: no-repeat;
 }
+
+.back-header-folding{
+	background-size: 100% 100%;
+	background-image: url(../img/falcovka.jpg);
+	background-repeat: no-repeat;
+}
+
+.back-header-cast{
+	background-size: 100% 100%;
+	background-image: url(../img/broshirovka.jpg);
+	background-repeat: no-repeat;
+}
+
 
 .card-dl1:hover .front{
 	transform: rotateY(180deg);/*Переворачиваем карточку*/
