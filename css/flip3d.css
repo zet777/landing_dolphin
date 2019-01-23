@@ -54,8 +54,10 @@
 
 .back1{
 	background-color: #39f;
-	transform: rotateY(180deg);
-	box-shadow: 2px 2px 9px 0px #fff;
+	-webkit-transform: rotateY(180deg);
+	        transform: rotateY(180deg);
+	-webkit-box-shadow: 2px 2px 9px 0px #fff;
+	        box-shadow: 2px 2px 9px 0px #fff;
 }
 
 .back-header{
