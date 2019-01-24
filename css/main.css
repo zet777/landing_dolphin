@@ -70,10 +70,15 @@ h1 {
 .yellow{
 	color: #ffff00;
 }
+/* Прозрачный голубой цвет*/
 .dignity{
 	background-color: #2b8affbf;
 	color: #fff;
 }
+
+
+
+
 .header-left{
 	color: #fff;
 	font-size: 36px;
