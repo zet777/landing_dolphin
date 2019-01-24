@@ -309,9 +309,9 @@ h1 {
 }
 #particles-js {
   position: absolute;
-  width: 80%!important;
-  height: 85%!important;
-  margin-left: 158px;
+  margin-left:165px;
+  width: 1245px;
+  height: 355px;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
