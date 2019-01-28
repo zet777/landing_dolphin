@@ -197,6 +197,7 @@ h1 {
 	border-right: 1px solid #5165e2;
 	padding-top: 40px;
 	padding-bottom: 35px;
+	font-size: 42px;
 }
 .scr{
 	
@@ -322,4 +323,15 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.price{
+	background-color: #ffffffe0;
+
+}
+.black-plan(
+	text-align: center;)
+.black-plan h3{
+	font-size: 28px;
+
 }
