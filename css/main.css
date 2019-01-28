@@ -65,10 +65,10 @@ h1 {
 }
 
 .bg-yellow {
-    background: #ffff00!important;
+    background: #ff6!important;
 }
 .yellow{
-	color: #ffff00;
+	color: #ff6;
 }
 /* Прозрачный голубой цвет*/
 .dignity{
@@ -312,7 +312,7 @@ h1 {
 }
 
 .pointerY:hover{
-	color: #ffff00;
+	color: #ff6;
 }
 #particles-js {
   position: absolute;
@@ -331,10 +331,16 @@ h1 {
 
 
 }
-.black-plan{
-	
-}
-.black-plan h3{
+
+.plan h3{
 	font-size: 24px;
 
+}
+
+.bg-yellow{
+	background-color: #ff6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #2b8affbf!important;
 }
