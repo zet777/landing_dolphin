@@ -51,6 +51,17 @@ section{
 	    -ms-flex-wrap: wrap;
 	        flex-wrap: wrap;
 }
+
+.bg-yellow{
+	background-color: #ff6;
+}
+.color-black{
+	color: #000;
+}
+
+
+
+
 .header{
 	background-color: #2b8affbf;
 }
@@ -337,10 +348,8 @@ h1 {
 
 }
 
-.bg-yellow{
-	background-color: #ff6;
-}
 
 .table-hover tbody tr:hover {
     background-color: #2b8affbf!important;
 }
+
