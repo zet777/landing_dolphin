@@ -14,7 +14,17 @@
 	    }
 	.header-left__check{
 		font-size: 20px;
-	}      
+		}
+	.about{
+		margin-top: 50px;
+		}  
+	.dignity-left {
+    margin-left: 5px;
+    max-width: 590px;
+	}  
+	.header-right__shape {
+   margin-left: 5px;
+	}  
 }
 
 /* Portrait tablets and small desktops */
