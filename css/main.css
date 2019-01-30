@@ -83,6 +83,11 @@ h1 {
 .yellow{
 	color: #ff6;
 }
+
+.table{
+	margin-bottom: 55px!important;
+}
+
 /* Прозрачный голубой цвет*/
 .dignity{
 	background-color: #2b8affbf;
