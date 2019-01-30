@@ -25,6 +25,10 @@
 	.header-right__shape {
    margin-left: 5px;
 	}  
+	.about-left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 /* Portrait tablets and small desktops */
