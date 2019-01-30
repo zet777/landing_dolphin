@@ -8,7 +8,7 @@
 	.header-right {
 	    width: 320px; 
 	    height: 215px;
-	    margin-top: 0;
+	    margin-top: 10px;
 	    margin-left: auto;
 	    margin-right: auto;
 	    }
@@ -29,6 +29,11 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.header-left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 }
 
 /* Portrait tablets and small desktops */

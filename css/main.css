@@ -60,7 +60,9 @@ section{
 }
 
 
-
+.navbar-light .navbar-nav .nav-link {
+	color: #000!important;
+}
 
 .header{
 	background-color: #2b8affbf;
