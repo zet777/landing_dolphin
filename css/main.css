@@ -52,6 +52,9 @@ section{
 	        flex-wrap: wrap;
 }
 
+caption{
+	padding-left: 10px;
+}
 .bg-yellow{
 	background-color: #ff6;
 }
@@ -59,7 +62,9 @@ section{
 	color: #000;
 }
 
-
+.width15{
+	/*width: 15%;*/
+}
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
 }
@@ -360,3 +365,10 @@ h1 {
     background-color: #2b8affbf!important;
 }
 
+.table-flex{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+}
