@@ -61,7 +61,9 @@ caption{
 .color-black{
 	color: #000;
 }
-
+.fz15px{
+	font-size: 15px;
+}
 .width15{
 	/*width: 15%;*/
 }
@@ -370,5 +372,4 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
 }
