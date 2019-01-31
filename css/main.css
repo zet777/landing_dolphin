@@ -64,8 +64,11 @@ caption{
 .fz15px{
 	font-size: 15px;
 }
-.width15{
-	/*width: 15%;*/
+span.fz15px{
+	font-size: 12px;
+}
+.width25{
+	width: 170px; 
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
@@ -374,4 +377,10 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.table-flex__left{
+	flex-grow: 1;
+}
+.table-flex__right{
+	flex-grow: 1;
 }
