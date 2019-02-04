@@ -70,6 +70,12 @@ span.fz15px{
 .width25{
 	width: 170px; 
 }
+.width30{
+	width: 300px; 
+}
+.width5{
+	width: 50px; 
+}
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
 }
