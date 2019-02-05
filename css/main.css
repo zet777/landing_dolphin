@@ -76,6 +76,12 @@ span.fz15px{
 .width5{
 	width: 50px; 
 }
+
+.width60{
+	width: 600px; 	
+}
+
+
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
 }
@@ -363,7 +369,10 @@ h1 {
 
 .price{
 	background-color: #ffffffe0;
-	    justify-content: center;
+	    -webkit-box-pack: center;
+	    -webkit-justify-content: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
 
 
 }
@@ -380,13 +389,26 @@ h1 {
 
 .table-flex{
 	width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 .table-flex__left{
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 }
 .table-flex__right{
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 }
