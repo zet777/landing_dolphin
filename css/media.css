@@ -19,6 +19,7 @@
 		font-size: 20px;
 	}
 	.plan{
+		text-align: center;
 		display: flex;
 		justify-content: center;
 	}	
