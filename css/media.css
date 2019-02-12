@@ -4,6 +4,8 @@
 		display: flex;
 		justify-content: center;
 	}	
+	
+
 }
 
 /* Portrait tablets and medium desktops */
@@ -40,6 +42,9 @@
 	.header-left{
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	#particles-js{
+		display: none;
 	}
 
 }

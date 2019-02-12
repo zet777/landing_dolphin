@@ -55,6 +55,25 @@ section{
 caption{
 	padding-left: 10px;
 }
+
+#toTop {
+	width:100px;
+	border: 1px solid #5165e2;
+	background:#fdff66;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; 
+	right:10px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:11px;
+}
+
+
+
 .bg-yellow{
 	background-color: #ff6;
 }
