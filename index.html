@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen" />	
 <link rel="stylesheet" href="css/flip3d.css"> 
 <link rel="stylesheet" href="css/Transform_3D_card.css"> 
+<script src="js/vue.js"></script>
 
 
 <!-- Bootstrap CSS -->
@@ -21,94 +22,108 @@
 <title>ОПЕРАТИВНАЯ ПЕЧАТЬ - сканирование чертежей, документации для строительных и проектных организаций, копирование.</title>
 </head>
 <body> 
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-yellow rounded">
-        <a class="navbar-brand color-black" href="#">Логотип,Имя компании</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarsExample09" style="">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link color-black" href="#price">Узнать цены</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-black" href="#order">Как сделать заказ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-black" href="#">Наше оборудование</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-black" href="#">Контакты</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-black" href="mailto:salon@clubprint.ru"><i class="fa fa-envelope"></i>salon@clubprint.ru</a></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-black" href="tel:+79009476805"><i class="fa fa-phone"></i>8-800-80-80 </a></a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
+  <script>
+    function preloadImages() {
+      for (var i = 0; i < arguments.length; i++) {
+        new Image().src = arguments[i];
+      }
+    }
 
-    </div>
+    preloadImages(
+      "../landing_dolphin/img/card3d2.jpg",
+      "../landing_dolphin/img/format-a1.png",
+      "../landing_dolphin/img/falcovka.jpg",
+      "../landing_dolphin/img/broshirovka.jpg"
+      );
+    </script>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-yellow rounded">
+          <a class="navbar-brand color-black" href="#">Логотип,Имя компании</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarsExample09" style="">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link color-black" href="#price">Узнать цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-black" href="#order">Как сделать заказ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-black" href="#">Наше оборудование</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-black" href="#">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-black" href="mailto:salon@clubprint.ru"><i class="fa fa-envelope"></i>salon@clubprint.ru</a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-black" href="tel:+79009476805"><i class="fa fa-phone"></i>8-800-80-80 </a></a>
+              </li>
+            </ul>
 
+          </div>
+        </nav>
 
-  </header>
-
-  <section class="header">
-    <div class="header-left">
-      <h1>Оперативная печать чертежей и проектов</h1>
-      <div class="header-left__check pointerY print">ПЕЧАТЬ ЧЕРТЕЖЕЙ</div>
-      <div class="header-left__check pointerY folding">ФАЛЬЦОВКА ЧЕРТЕЖЕЙ</div>
-      <div class="header-left__check pointerY cast">БРОШЮРОВКА НА ПЛАСТИКОВУЮ ПРУЖИНУ</div>
-      <div class="header-left__check scan-all pointerY">СКАНИРОВАНИЕ ЛЮБЫХ ФОРМАТОВ, ВПЛОТЬ ДО А0</div>
-    </div>
-    <div class="header-right">
-      <div class="wrap">
-        <div class="card-dl1">
-          <div class="front1 front-header"></div>
-          <div class="back1 back-header"></div>
-        </div>
       </div>
-    </div>
-  </section>
-  <section class="about">
 
-    <div class="about-left">
-      <h2>Немного о нас</h2>
-      <p>Приветствуем Вас на веб-странице фирмы "Название компании"!</p>
-      <p>Наша фирма оказывает совокупные решения по печати чертежей и проектов.
-        <p>Мы уверены, что услуги такие, как печать чертежей, сканирование форматов вплоть до А0, складирование (фальцовка), брошюровка, твердый переплет - нужны и целесообразны в реалиях нашего мира, где быстро развиваются высокие технологии.
-        </p>
+
+    </header>
+
+    <section class="header">
+      <div class="header-left">
+        <h1>Оперативная печать чертежей и проектов</h1>
+        <div class="header-left__check pointerY print">ПЕЧАТЬ ЧЕРТЕЖЕЙ</div>
+        <div class="header-left__check pointerY folding">ФАЛЬЦОВКА ЧЕРТЕЖЕЙ</div>
+        <div class="header-left__check pointerY cast">БРОШЮРОВКА НА ПЛАСТИКОВУЮ ПРУЖИНУ</div>
+        <div class="header-left__check scan-all pointerY">СКАНИРОВАНИЕ ЛЮБЫХ ФОРМАТОВ, ВПЛОТЬ ДО А0</div>
       </div>
-      <div class="about-right">
+      <div class="header-right">
         <div class="wrap">
-          <div class="card-dl2">
-            <div class="front2"><span>Картинка</span></div>
-            <div class="back2"><span>Картинка</span></div>
+          <div class="card-dl1">
+            <div class="front1 front-header"></div>
+            <div class="back1 back-header"></div>
           </div>
         </div>
       </div>
     </section>
-    <!-- <div id="particles-js"></div>  -->
-    <div class="cntr"><h2 class="hak">Наши плюсы</h2></div>
-    <section class="dignity">
-      <div class="dignity-left">
-        <span class="header-left__shape">Работаем с НДС 20%</span>
-        <span class="header-left__shape">Постоянные клиенты могут оплачивать по факту</span>
-        <span class="header-left__shape">Абсолютная секретность, печатаем только на офлайн оборудование
-        </span>
-      </div>
-      <div class="dignity-right">
-        <span class="header-right__shape">По предварительному согласованию можем выполнять срочные заказы, работая по 24 часа в сутки</span>
-        <span class="header-right__shape">Низкие цены, скидки</span>
-        <span class="header-right__shape">Заказ на сумму от 4000 ₽ доставляется бесплатно</span>
-      </div>
-    </section>
-    <!-- <div class="cntr"><h2 class="hakscr">Скриншоты</h2></div> -->
+    <section class="about">
+
+      <div class="about-left">
+        <h2>Немного о нас</h2>
+        <p>Приветствуем Вас на веб-странице фирмы "Название компании"!</p>
+        <p>Наша фирма оказывает совокупные решения по печати чертежей и проектов.
+          <p>Мы уверены, что услуги такие, как печать чертежей, сканирование форматов вплоть до А0, складирование (фальцовка), брошюровка, твердый переплет - нужны и целесообразны в реалиях нашего мира, где быстро развиваются высокие технологии.
+          </p>
+        </div>
+        <div class="about-right">
+          <div class="wrap">
+            <div class="card-dl2">
+              <div class="front2"><span>Картинка</span></div>
+              <div class="back2"><span>Картинка</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div id="particles-js"></div>  -->
+      <div class="cntr"><h2 class="hak">Наши плюсы</h2></div>
+      <section class="dignity">
+        <div class="dignity-left">
+          <span class="header-left__shape">Работаем с НДС 20%</span>
+          <span class="header-left__shape">Постоянные клиенты могут оплачивать по факту</span>
+          <span class="header-left__shape">Абсолютная секретность, печатаем только на офлайн оборудование
+          </span>
+        </div>
+        <div class="dignity-right">
+          <span class="header-right__shape">По предварительному согласованию можем выполнять срочные заказы, работая по 24 часа в сутки</span>
+          <span class="header-right__shape">Низкие цены, скидки</span>
+          <span class="header-right__shape">Заказ на сумму от 4000 ₽ доставляется бесплатно</span>
+        </div>
+      </section>
+      <!-- <div class="cntr"><h2 class="hakscr">Скриншоты</h2></div> -->
 <!-- <section class="scr">
   <div class="section">
     <div class="container3d">
@@ -444,78 +459,80 @@
    </table>
 
    
-<div class="table-flex">
-  <div class="table-flex__left">
+   <div class="table-flex">
+    <div class="table-flex__left">
+      <div class="plan">
+        <h3>СТОИМОСТЬ СКАНИРОВАНИЯ ДОКУМЕНТОВ</h3>
+      </div>
+      <table class="table table-hover table-responsive-sm">
+        <thead>
+          <tr class="bg-yellow fz15px">
+            <!-- Поменять font-size для адаптивности на мобильный -->
+            <th></th>
+            <th>до 10 ШТ.</th>
+            <th>более 11 шт</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="bg-yellow width60">Формат А4 и менее с любом разрешением до 4800x9600 dpi + запись на USB носитель</th>
+            <td>10 ₽</td>
+            <td>8 ₽</td>
+
+          </tr>
+          <tr>
+           <th scope="row" class="bg-yellow width60">Формат А3 и запись на USB-носитель</th>
+           <td>30 ₽</td>
+           <td>25 ₽</td>
+         </tr>
+         <tr>
+           <th scope="row" class="bg-yellow width60">Сканирование текстовых документов + распознавание с корректировкой и/или форматирование + печать, за 1 стр. + запись на USB-носитель</th>
+           <td>30 ₽</td>
+           <td>25 ₽</td>
+         </tr>
+       </tbody>
+     </table> 
+   </div>
+   <div class="table-flex__right">
     <div class="plan">
-    <h3>СТОИМОСТЬ СКАНИРОВАНИЯ ДОКУМЕНТОВ</h3>
-  </div>
-  <table class="table table-hover table-responsive-sm">
-    <thead>
-      <tr class="bg-yellow fz15px">
-        <!-- Поменять font-size для адаптивности на мобильный -->
-        <th></th>
-        <th>до 10 ШТ.</th>
-        <th>более 11 шт</th>
+      <h3>ШИРОКОФОРМАТНОЕ СКАНИРОВАНИЕ</h3>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr class="bg-yellow fz15px">
+          <!-- Поменять font-size для адаптивности на мобильный -->
+          <th></th>
+          <th>до 10 ШТ.</th>
 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row" class="bg-yellow width60">Формат А4 и менее с любом разрешением до 4800x9600 dpi + запись на USB носитель</th>
-        <td>10 ₽</td>
-        <td>8 ₽</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="bg-yellow width60">Формат А3 и запись на USB-носитель</th>
+          <td>30 ₽</td>
 
-      </tr>
-      <tr>
-       <th scope="row" class="bg-yellow width60">Формат А3 и запись на USB-носитель</th>
-       <td>30 ₽</td>
-       <td>25 ₽</td>
-     </tr>
-     <tr>
-       <th scope="row" class="bg-yellow width60">Сканирование текстовых документов + распознавание с корректировкой и/или форматирование + печать, за 1 стр. + запись на USB-носитель</th>
-       <td>30 ₽</td>
-       <td>25 ₽</td>
-     </tr>
-   </tbody>
- </table> 
-  </div>
-  <div class="table-flex__right">
-    <div class="plan">
-    <h3>ШИРОКОФОРМАТНОЕ СКАНИРОВАНИЕ</h3>
-  </div>
-  <table class="table table-hover">
-    <thead>
-      <tr class="bg-yellow fz15px">
-        <!-- Поменять font-size для адаптивности на мобильный -->
-        <th></th>
-        <th>до 10 ШТ.</th>
 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row" class="bg-yellow width60">Формат А3 и запись на USB-носитель</th>
-        <td>30 ₽</td>
-       
+        </tr>
+        <tr>
+         <th scope="row" class="bg-yellow width60">Формат А2 и запись на USB-носитель</th>
+         <td>70 ₽</td>
 
-      </tr>
-      <tr>
-       <th scope="row" class="bg-yellow width60">Формат А2 и запись на USB-носитель</th>
-       <td>70 ₽</td>
-       
-     </tr>
-     <tr>
-       <th scope="row" class="bg-yellow width60">Формат А1 и запись на USB-носитель</th>
-       <td>100 ₽</td>
-       
-     </tr>
-   </tbody>
- </table> 
-  </div>
+       </tr>
+       <tr>
+         <th scope="row" class="bg-yellow width60">Формат А1 и запись на USB-носитель</th>
+         <td>100 ₽</td>
+
+       </tr>
+     </tbody>
+   </table> 
+ </div>
 </div>
 </section>
 
+<section class="footer">  
 
+</section>
 
 
 <!-- <section class="buy">
