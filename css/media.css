@@ -1,29 +1,36 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-
+	.plan{
+		display: flex;
+		justify-content: center;
+	}	
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 320px) and (max-width: 1060px) {
 	.header-right {
-	    width: 320px; 
-	    height: 215px;
-	    margin-top: 10px;
-	    margin-left: auto;
-	    margin-right: auto;
-	    }
+		width: 320px; 
+		height: 215px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.header-left__check{
 		font-size: 20px;
-		}
+	}
+	.plan{
+		display: flex;
+		justify-content: center;
+	}	
 	.about{
 		margin-top: 50px;
-		}  
+	}  
 	.dignity-left {
-    margin-left: 5px;
-    max-width: 590px;
+		margin-left: 5px;
+		max-width: 590px;
 	}  
 	.header-right__shape {
-   margin-left: 5px;
+		margin-left: 5px;
 	}  
 	.about-left{
 		padding-left: 10px;
@@ -50,5 +57,5 @@
 @media (max-width: 480px) {
 
 	
-    
+
 }
