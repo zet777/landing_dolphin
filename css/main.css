@@ -6,6 +6,36 @@
 ::selection {
 	background: #ff6; 
 }
+
+h1 { 
+	font-size: 2rem !important;
+	
+}
+h2 { 
+	font-size: 1.5rem !important;
+	
+}
+h3 { 
+	font-size: 1.17rem !important;
+	margin-bottom: 1.17rem !important;
+}
+h5 { 
+	font-size: .83rem !important;
+	margin-bottom: .83rem !important;
+}
+h6 { 
+	font-size: .75rem!important;
+	margin-bottom: .75rem !important;
+}
+
+p {
+	font-size: 1rem!important;
+
+}
+.table{
+	border:1px solid;
+}
+
 body{
 	background: #fff url(../img/back3.jpg) no-repeat ;
 	background-attachment: fixed;
@@ -107,9 +137,7 @@ span.fz15px{
 .buy{
 	background-color: #ffffffe0;
 }
-h1 {
-	font-size: 2.1rem!important;
-}
+
 
 .bg-yellow {
 	background: #ff6!important;
@@ -118,10 +146,7 @@ h1 {
 	color: #ff6;
 }
 
-.table{
-	margin-bottom: 55px!important;
-	border:1px solid;
-}
+
 
 
 /* Прозрачный голубой цвет*/
@@ -147,7 +172,7 @@ h1 {
 .header-left__check{
 	padding-left: 37px;
 	padding-top: 20px;
-	font-size: 24px;
+	font-size: 1.17rem;
 	background-image: url(../img/check-icon.png);
 	background-repeat: no-repeat;
 	background-position: 0 25px;
@@ -430,15 +455,28 @@ h1 {
 	background-color: #2b8affbf;
 }
 .footer__caption{
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
 	flex-grow: 1;
 
 }
 .footer__contact{
+	-webkit-box-flex: 3;
+	-webkit-flex-grow: 3;
+	-ms-flex-positive: 3;
 	flex-grow: 3;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 .footer__map{
+	-webkit-box-flex: 4;
+	-webkit-flex-grow: 4;
+	-ms-flex-positive: 4;
 	flex-grow: 4;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 /* Footer end */
