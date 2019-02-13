@@ -424,3 +424,21 @@ h1 {
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
+
+/* Footer */
+.footer{
+	background-color: #2b8affbf;
+}
+.footer__caption{
+	flex-grow: 1;
+
+}
+.footer__contact{
+	flex-grow: 3;
+	flex-wrap: wrap;
+}
+.footer__map{
+	flex-grow: 4;
+	flex-wrap: wrap;
+}
+/* Footer end */
