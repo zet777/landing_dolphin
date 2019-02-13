@@ -6,7 +6,6 @@
 ::selection {
 	background: #ff6; 
 }
-
 body{
 	background: #fff url(../img/back3.jpg) no-repeat ;
 	background-attachment: fixed;
@@ -49,11 +48,9 @@ section{
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-
 caption{
 	padding-left: 10px;
 }
-
 #toTop {
 	width:100px;
 	border: 1px solid #5165e2;
@@ -69,9 +66,6 @@ caption{
 	font-family:verdana;
 	font-size:11px;
 }
-
-
-
 .bg-yellow{
 	background-color: #ff6;
 }
@@ -97,6 +91,7 @@ span.fz15px{
 .width60{
 	width: 600px; 	
 }
+/* End */
 
 
 .navbar-light .navbar-nav .nav-link {
