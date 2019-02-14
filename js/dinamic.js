@@ -61,8 +61,7 @@ $('.cast').hover(
 
 /* end */
 
-
-
+/* Up */
 $(function() {
   $(window).scroll(function() {
     if($(this).scrollTop() != 0) {
@@ -76,4 +75,14 @@ $(function() {
   });
 
 });
+/* end */
 
+/* Scroll */
+$(function(){
+        $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
+});
+/* end */
