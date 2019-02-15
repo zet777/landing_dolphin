@@ -1,6 +1,6 @@
 /*Переворот карточки по наведению на класс scan-all*/
 
-$('.scan-all').hover(
+$('.scan-all>span').hover(
   function(){
     $('.front-header').addClass('rotate180');
     $('.back-header').addClass('rotate360');
@@ -13,7 +13,7 @@ $('.scan-all').hover(
 /*end*/
 
 /*Подсвечивание при наведение*/
-$('.print').hover(
+$('.print>span').hover(
   function(){
     $('.front-header').addClass('hard-light');
 
@@ -26,7 +26,7 @@ $('.print').hover(
 
 /* Фальцовка */
 
-$('.folding').hover(
+$('.folding>span').hover(
   function(){
     $('.back1').removeClass('back-header');
     $('.back1').addClass('back-header-folding');
@@ -44,7 +44,7 @@ $('.folding').hover(
 
 /* Брошировка */
 
-$('.cast').hover(
+$('.cast>span').hover(
   function(){
     $('.back1').removeClass('back-header');
     $('.back1').removeClass('back-header-folding');

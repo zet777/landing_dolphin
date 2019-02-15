@@ -28,11 +28,7 @@ h6 {
 	margin-bottom: .75rem !important;
 }
 
-p {
-	font-size: 1rem!important;
-	margin-bottom: 0 !important;
 
-}
 .table{
 	border:1px solid;
 }
@@ -241,7 +237,8 @@ span.fz15px{
 }
 
 .about-left p {
-	font-size: 20px;
+	font-size: 1.1rem;
+	margin-bottom: 0 !important;
 }
 
 .cntr{
@@ -403,14 +400,14 @@ span.fz15px{
 	padding-right: 4px;
 }
 
-.pointerY{
+.pointerY>span{
 	cursor: pointer;
 	-webkit-transition: all .6s ease;
 	-o-transition: all .6s ease;
 	transition: all .6s ease;
 }
 
-.pointerY:hover{
+.pointerY>span:hover{
 	color: #ff6;
 }
 #particles-js {
@@ -475,30 +472,31 @@ footer{
 	background-color: #2b8affbf;
 }
 
-footer .phone{
-
-}
-
-footer .phone{
-
-}
 
 
 .footer__contact>p>span{
 	margin-right: 10px;
 }
-.footer__contact .phone{
-	margin-bottom: 15px;
+.footer__contact p{
+	margin-bottom: 5px;
 }
 .footer__contact,
 .footer__map{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	color: #fff;
 }
+
 .footer__contact{
 	padding-left: 50px;	
+	font-size: 1.7rem!important;
+		
 }
+.footer__phone {
+	
+
+}
+
 .footer__map{
 	padding-right: 50px;	
 }
@@ -506,10 +504,19 @@ footer .phone{
 
 }
 .footer__soc-icon{
-
-}
-.footer__mail{
 	
+}
+
+.footer__soc-icon .fa-telegram,
+.fa-viber, .fa-whatsapp-square{
+	cursor:pointer;
+	margin-right: 10px;
+	transition: all .6s;
+} 
+
+.fa-telegram:hover,
+.fa-viber:hover, .fa-whatsapp-square:hover,.footer__mail:hover{
+	color:#fdff66;
 }
 .footer__work-time{
 	
