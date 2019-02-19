@@ -482,7 +482,8 @@ footer{
 	color:#fff;
 }
 .footer__contact,
-.footer__map{
+.footer__map,
+.footer__requisites{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	color: #fff;
@@ -498,8 +499,22 @@ footer{
 
 }
 
+.footer__requisites{
+	margin-top: 60px;	
+	margin-left: 50px;
+	font-size: 	1.5rem;
+}
+.footer__requisites p{
+	margin-bottom: 0;
+}
 .footer__map{
-	padding-right: 50px;	
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;	
+	
+}
+.footer__map p{
+	font-size: 1.7rem!important;
 }
 .footer__phone{
 
@@ -512,14 +527,17 @@ footer{
 .fa-viber, .fa-whatsapp-square{
 	cursor:pointer;
 	margin-right: 10px;
-	transition: all .6s;
+	transition: all .3s;
 } 
 
 .fa-telegram:hover,
 .fa-viber:hover, .fa-whatsapp-square:hover,.footer__mail:hover{
 	color:#fdff66;
+	font-size: 1.8rem!important;
 }
 .footer__work-time{
 	
 }
+
+
 /* Footer end */
