@@ -491,7 +491,7 @@ footer{
 
 .footer__contact{
 	padding-left: 50px;	
-	font-size: 1.7rem!important;
+	font-size: 1.5rem!important;
 		
 }
 .footer__phone {
@@ -514,7 +514,7 @@ footer{
 	
 }
 .footer__map p{
-	font-size: 1.7rem!important;
+	font-size: 1.5rem!important;
 }
 .footer__phone{
 
@@ -538,6 +538,18 @@ footer{
 .footer__work-time{
 	
 }
+
+.btn-yellow{
+	background-color: #fdff66;
+  	border: 1px solid #5165e2;
+}
+
+.btn-yellow:hover{
+  background-color: #5165e2;
+  border: 1px solid #fdff66;
+  color: #fff;
+}
+
 
 
 /* Footer end */
