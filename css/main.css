@@ -48,7 +48,6 @@ header{
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	background-color: #2b8affbf;
 	border-left: 1px solid #5165e2;
 	border-right: 1px solid #5165e2;
 	margin: 0 auto;
@@ -137,21 +136,27 @@ span.fz15px{
 .width60{
 	width: 600px; 	
 }
-/* End */
 
+/* Прозрачный белый фон c черными буквами*/
+.back-white0{
+ background-color: #ffffffe0;
+ color: #000;
+}
+/* Прозрачный голубой фон с белыми буквами */
+.back-blue0{
+	background-color: #2b8affbf;
+	color:#000;
+}
 
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
 }
 
-.header{
-	background-color: #2b8affbf;
-}
 .about{
-	background-color: #ffffffe0;
+	
 }
 .buy{
-	background-color: #ffffffe0;
+	
 }
 
 
@@ -162,12 +167,12 @@ span.fz15px{
 	color: #ff6;
 }
 
+/* End */
 
 
 
 /* Прозрачный голубой цвет*/
 .dignity{
-	background-color: #2b8affbf;
 	color: #fff;
 }
 
@@ -276,7 +281,6 @@ span.fz15px{
 	background-position: 0 25px;
 }
 .hak{
-	background: #2b8affbf;
 	color: #fff;
 	max-width: 1280px;
 	margin: 0 auto;
@@ -285,8 +289,7 @@ span.fz15px{
 	padding-top: 40px;
 	padding-bottom: 35px;
 }
-.hakscr{
-	background: #ffffffe0;    
+.hakscr{   
 	max-width: 1280px;
 	margin: 0 auto;
 	border-left: 1px solid #5165e2;
@@ -422,7 +425,6 @@ span.fz15px{
 }
 
 .price{
-	background-color: #ffffffe0;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
@@ -469,14 +471,25 @@ span.fz15px{
 
 /* Order */
 
+.order{	
+}
 
+.order__left{
+	max-width: 400px;
+    margin-left: 50px;
+}
+
+.order__right{
+	margin-right: 50px;
+    max-width: 600px;
+}
 
 /* Order end*/
 
 
 /* Footer */
 footer{
-	background-color: #2b8affbf;
+	
 }
 
 
