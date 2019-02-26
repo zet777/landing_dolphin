@@ -152,6 +152,15 @@ span.fz15px{
 	color: #000!important;
 }
 
+.nav-link{
+	transition: all .5s;
+}
+
+.nav-item>.nav-link:hover{
+	cursor: pointer;
+  	border: 1px solid #fdff66;
+  	color: #5165e2!important;
+}
 .about{
 	
 }
