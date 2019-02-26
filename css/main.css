@@ -142,6 +142,7 @@ span.fz15px{
  background-color: #ffffffe0;
  color: #000;
 }
+
 /* Прозрачный голубой фон с белыми буквами */
 .back-blue0{
 	background-color: #2b8affbf;
@@ -152,6 +153,11 @@ span.fz15px{
 	color: #000!important;
 }
 
+/* Просто дополнительный класс 
+для расскрашивание шрифтов */
+.bl{
+	color: #5165e2;
+}
 .nav-link{
 	transition: all .5s;
 }
@@ -180,7 +186,7 @@ span.fz15px{
 
 
 
-/* Прозрачный голубой цвет*/
+
 .dignity{
 	color: #fff;
 }
@@ -261,7 +267,9 @@ span.fz15px{
 	display: contents;
 	margin: 0 auto;
 }
-
+.cntrP{
+	text-align: center;
+}
 .dignity-left{
 	margin-left: 50px;
 	max-width: 590px;
@@ -486,11 +494,14 @@ span.fz15px{
 .order__left{
 	max-width: 400px;
     margin-left: 50px;
+    font-size: 20px;
 }
-
+.order__left-request,.order__left-call{
+	
+}
 .order__right{
 	margin-right: 50px;
-    max-width: 600px;
+    width: 600px;
 }
 
 /* Order end*/

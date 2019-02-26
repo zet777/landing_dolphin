@@ -536,14 +536,47 @@
 <!-- Price end -->
 
 <!-- Order -->
-<div class="howToOrder"><h1 class="hakscr back-white0" id="price">Как сделать заказ</h2></div>
+<div class="howToOrder"><h1 class="hakscr cntrP back-white0" id="price">Как сделать заказ</h2></div>
 <section class="order back-white0">
   <div class="order__left">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, doloribus fuga consequatur ex odit eligendi esse, ea repellendus alias optio asperiores reprehenderit quis. Recusandae magnam atque aliquid quae, repellendus mollitia!
+    <p class="order__left-request">
+      <i class="fas fa-file-invoice bl"></i> Оставить заявку на обратный звонок с помощью формы-заказа справа
+    </p>
+    <p class="cntrP">ИЛИ</p>
+    <p class="order__left-call">
+      <i class="fas fa-phone bl"></i> Позвонить нам по телефону <br/>+7 (800) 00-00-00. Звонок бесплатный по всей России
+    </p>
+    <p class="order__left-email">
+      <i class="fas fa-envelope bl"></i> После отправить файлы на почту zakaz@domain.ru
+    </p>
   </div>
   <div class="order__right">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus sit eaque nesciunt quos aliquid rerum, minus vero veritatis autem consectetur, libero ratione. Id asperiores fugit, quibusdam quasi repudiandae minus!
+   
+      
+      <form class="form-horizontal" action="//formspree.io/rzet777@gmail.com" method="POST">
+      <div class="form-group"><label class="col-sm-2 control-label" for="name">Имя</label>
+      <div class="col-sm-10"><input id="name" class="form-control" type="text" placeholder="Имя" /></div>
+      </div>
+      <div class="form-group"><label class="col-sm-2 control-label" for="city">Город</label>
+      <div class="col-sm-10"><input id="city" class="form-control" type="text" placeholder="Город" /></div>
+      </div>
+      <div class="form-group"><label class="col-sm-2 control-label" for="phone" name="phone">Номер телефона</label>
+      <div class="col-sm-10"><input id="phone" class="form-control" type="text" placeholder="+7 (800) 000-00-00" /></div>
+      </div>
+      <div class="form-group"><label class="col-sm-2 control-label" for="email">Email</label>
+      <div class="col-sm-10"><input id="email" class="form-control" name="_replyto" type="email" placeholder="Email" /> <input name="_next" type="hidden"  value="//nalavochke.su/thanks.html" /> <input name="_subject" type="hidden" value="Новый заказ!" /> <input name="_cc" type="hidden" value="another@email.com" /> <input     style="display: none;" name="_gotcha" type="text" /></div>
+      </div>
+      <div class="form-group form-check">
+              <input id="check" class="form-check-input" checked type="checkbox">
+              <label class="form-check-label" for="check" style="color:#000">Я добровольно отправляю свои данные</label>
+            </div>
+      <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10"><button class="btn btn-default" type="submit">Отправить</button></div>
+      </div>
+      </form>
   </div>
+
+    
 
 </section>
 
@@ -601,7 +634,7 @@
           <form id="contactForm" action="handler.php" method="post">
             <div class="form-group">
               <label for="name" style="color:#000">Ваше имя:</label>
-              <input id="name" class="form-control" name="name" required type="text" placeholder="Иванов Иван Иванович">
+              <input id="name" class="form-control" name="name" required type="text" placeholder="Иванов с">
             </div>
             <div class="form-group">
               <label for="email" style="color:#000">Ваш E-mail:</label>
