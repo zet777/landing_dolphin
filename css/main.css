@@ -492,7 +492,7 @@ span.fz15px{
 }
 
 .order__left{
-	max-width: 400px;
+	max-width: 520px;
     margin-left: 50px;
     font-size: 20px;
 }
@@ -582,6 +582,7 @@ footer{
 .btn-yellow{
 	background-color: #fdff66;
   	border: 1px solid #5165e2;
+  	border-radius: .3rem;
 }
 
 .btn-yellow:hover{
