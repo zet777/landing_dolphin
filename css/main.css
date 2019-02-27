@@ -6,7 +6,6 @@
 ::selection {
 	background: #ff6; 
 }
-
 h1 { 
 	font-size: 2rem !important;
 	
@@ -27,12 +26,9 @@ h6 {
 	font-size: .75rem!important;
 	margin-bottom: .75rem !important;
 }
-
-
 .table{
 	border:1px solid;
 }
-
 body{
 	background: #fff url(../img/back3.jpg) no-repeat ;
 	background-attachment: fixed;
@@ -111,8 +107,11 @@ caption{
 	font-family:verdana;
 	font-size:11px;
 }
-.bg-yellow{
-	background-color: #ff6;
+.bg-yellow {
+	background: #ff6!important;
+}
+.yellow{
+	color: #ff6;
 }
 .color-black{
 	color: #000;
@@ -132,32 +131,37 @@ span.fz15px{
 .width5{
 	width: 50px; 
 }
-
 .width60{
 	width: 600px; 	
 }
-
 /* Прозрачный белый фон c черными буквами*/
 .back-white0{
  background-color: #ffffffe0;
  color: #000;
 }
-
 /* Прозрачный голубой фон с белыми буквами */
 .back-blue0{
 	background-color: #2b8affbf;
 	color:#000;
 }
-
-.navbar-light .navbar-nav .nav-link {
-	color: #000!important;
-}
-
 /* Просто дополнительный класс 
 для расскрашивание шрифтов */
 .bl{
 	color: #5165e2;
 }
+/* Button */
+.btn-yellow{
+	background-color: #fdff66;
+  	border: 1px solid #5165e2;
+  	border-radius: .3rem;
+}
+.btn-yellow:hover{
+  background-color: #5165e2;
+  border: 1px solid #fdff66;
+  color: #fff;
+}
+/* Global end */
+
 .nav-link{
 	transition: all .5s;
 }
@@ -167,67 +171,42 @@ span.fz15px{
   	border: 1px solid #fdff66;
   	color: #5165e2!important;
 }
-.about{
-	
+.navbar-light .navbar-nav .nav-link {
+	color: #000!important;
 }
-.buy{
-	
+.about{	
 }
-
-
-.bg-yellow {
-	background: #ff6!important;
+.buy{	
 }
-.yellow{
-	color: #ff6;
-}
-
-/* End */
-
-
-
 
 .dignity{
 	color: #fff;
 }
-
-
-
-
 .header-left{
 	color: #fff;
 	font-size: 36px;
 	font-family: "Arial";
 	line-height: 1.2;
 	padding-top: 50px;
-	padding-left: 50px;
-	
-	
+	padding-left: 50px;		
 }
-
 .header-left__check{
 	padding-left: 37px;
 	padding-top: 20px;
 	font-size: 1.17rem;
 	background-image: url(../img/check-icon.png);
 	background-repeat: no-repeat;
-	background-position: 0 25px;
-
-	
-	
+	background-position: 0 25px;	
 }
 .header-left__check:last-child{
-	padding-bottom: 50px;
-	
+	padding-bottom: 50px;	
 }
-
 .header-right{
 	width: 320px;
 	height: 215px;
 	margin-right: 50px;
 	margin-top: 50px;	
 }
-
 .about-right{
 	width: 320px;
 	height: 215px;
@@ -579,16 +558,6 @@ footer{
 	
 }
 
-.btn-yellow{
-	background-color: #fdff66;
-  	border: 1px solid #5165e2;
-  	border-radius: .3rem;
-}
 
-.btn-yellow:hover{
-  background-color: #5165e2;
-  border: 1px solid #fdff66;
-  color: #fff;
-}
 
 /* Footer end */
