@@ -92,6 +92,12 @@ footer{
 caption{
 	padding-left: 10px;
 }
+.ulli{
+	margin-top: 20px;
+}
+.li{
+	list-style-type:decimal;
+}
 #toTop {
 	width:100px;
 	border: 1px solid #5165e2;
@@ -134,22 +140,59 @@ span.fz15px{
 .width60{
 	width: 600px; 	
 }
+
 /* Прозрачный белый фон c черными буквами*/
 .back-white0{
  background-color: #ffffffe0;
  color: #000;
 }
+
 /* Прозрачный голубой фон с белыми буквами */
 .back-blue0{
 	background-color: #2b8affbf;
 	color:#000;
 }
+
 /* Просто дополнительный класс 
 для расскрашивание шрифтов */
 .bl{
 	color: #5165e2;
 }
+
 /* Button */
+.button{
+	margin: 0 auto;
+	color: #5165e2;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #fff;
+	border-left: 2px solid #5165e2;
+	border-right: 2px solid #5165e2;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 90%;
+	cursor: pointer;
+	-webkit-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+.button:hover{
+	margin: 0 auto;
+	color: #5165e2;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #d4edff;
+	border-left: 2px solid #5165e2;
+	border-right: 2px solid #5165e2;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 10px;
+	max-width: 90%;
+	cursor: pointer;
+}
 .btn-yellow{
 	background-color: #fdff66;
   	border: 1px solid #5165e2;
@@ -160,7 +203,8 @@ span.fz15px{
   border: 1px solid #fdff66;
   color: #fff;
 }
-/* Global end */
+
+/* Button end */
 
 .nav-link{
 	transition: all .5s;
@@ -174,6 +218,21 @@ span.fz15px{
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
 }
+/* Center */
+.cntr{
+	max-width: 1280px;
+	text-align: center;
+	display: contents;
+	margin: 0 auto;
+}
+.cntrP{
+	text-align: center;
+}
+/* Center end */
+/* Global end */
+
+
+
 .about{	
 }
 .buy{	
@@ -182,6 +241,8 @@ span.fz15px{
 .dignity{
 	color: #fff;
 }
+
+/* Header css */
 .header-left{
 	color: #fff;
 	font-size: 36px;
@@ -207,12 +268,6 @@ span.fz15px{
 	margin-right: 50px;
 	margin-top: 50px;	
 }
-.about-right{
-	width: 320px;
-	height: 215px;
-	margin-right: 50px;
-	margin-top: 50px;
-}
 
 .header-right p{
 	margin-top: 100px;
@@ -221,6 +276,17 @@ span.fz15px{
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
+/* Header css end */
+
+/* Obout css */
+.about-right{
+	width: 320px;
+	height: 215px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+
 .about-right p{
 	margin-top: 100px;
 	margin-left: 150px;
@@ -240,15 +306,7 @@ span.fz15px{
 	margin-bottom: 0 !important;
 }
 
-.cntr{
-	max-width: 1280px;
-	text-align: center;
-	display: contents;
-	margin: 0 auto;
-}
-.cntrP{
-	text-align: center;
-}
+
 .dignity-left{
 	margin-left: 50px;
 	max-width: 590px;
@@ -355,45 +413,7 @@ span.fz15px{
 	text-align: center;
 
 }
-.ulli{
-	margin-top: 20px;
-}
-.li{
-	list-style-type:decimal;
-}
-.button{
-	margin: 0 auto;
-	color: #5165e2;
-	padding-left: 25px;
-	padding-right: 25px;
-	background: #fff;
-	border-left: 2px solid #5165e2;
-	border-right: 2px solid #5165e2;
-	font-size: 40px;
-	font-weight: 600;
-	text-align: center;
-	border-radius: 10px;
-	max-width: 90%;
-	cursor: pointer;
-	-webkit-transition: all .6s ease;
-	-o-transition: all .6s ease;
-	transition: all .6s ease;
-}
-.button:hover{
-	margin: 0 auto;
-	color: #5165e2;
-	padding-left: 25px;
-	padding-right: 25px;
-	background: #d4edff;
-	border-left: 2px solid #5165e2;
-	border-right: 2px solid #5165e2;
-	font-size: 40px;
-	font-weight: 600;
-	text-align: center;
-	border-radius: 10px;
-	max-width: 90%;
-	cursor: pointer;
-}
+
 
 .fa{
 	padding-right: 4px;
@@ -466,7 +486,6 @@ span.fz15px{
 }
 
 /* Order */
-
 .order{	
 }
 
@@ -482,17 +501,9 @@ span.fz15px{
 	margin-right: 50px;
     width: 600px;
 }
-
 /* Order end*/
 
-
 /* Footer */
-footer{
-	
-}
-
-
-
 .footer__contact>p>span{
 	margin-right: 10px;
 }
@@ -507,15 +518,11 @@ footer{
 	margin-bottom: 50px;
 	color: #fff;
 }
-
 .footer__contact{
 	padding-left: 50px;	
-	font-size: 1.5rem!important;
-		
+	font-size: 1.5rem!important;		
 }
-.footer__phone {
-	
-
+.footer__phone {	
 }
 
 .footer__requisites{
@@ -541,14 +548,12 @@ footer{
 .footer__soc-icon{
 	
 }
-
 .footer__soc-icon .fa-telegram,
 .fa-viber, .fa-whatsapp-square{
 	cursor:pointer;
 	margin-right: 10px;
 	transition: all .3s;
 } 
-
 .fa-telegram:hover,
 .fa-viber:hover, .fa-whatsapp-square:hover,.footer__mail:hover{
 	color:#fdff66;
@@ -557,7 +562,4 @@ footer{
 .footer__work-time{
 	
 }
-
-
-
 /* Footer end */
