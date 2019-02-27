@@ -229,8 +229,13 @@ span.fz15px{
 	text-align: center;
 }
 /* Center end */
-/* Global end */
 
+.form-check {
+    padding-left: 2.25rem!important;
+}
+
+
+/* Global end */
 
 
 .about{	
