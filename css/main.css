@@ -491,7 +491,9 @@ span.fz15px{
 }
 
 /* Order */
-.order{	
+.order .order__left p.cntrP,
+.order .order__left p.order__left-call{
+	margin-bottom: 0.6rem;
 }
 
 .order__left{
@@ -499,8 +501,8 @@ span.fz15px{
     margin-left: 50px;
     font-size: 20px;
 }
-.order__left-request,.order__left-call{
-	
+.order__left .order__left-request {
+	margin-bottom: 0.6rem;
 }
 .order__right{
 	margin-right: 50px;
@@ -560,7 +562,7 @@ span.fz15px{
 	transition: all .3s;
 } 
 .fa-telegram:hover,
-.fa-viber:hover, .fa-whatsapp-square:hover,.footer__mail:hover{
+.fa-viber:hover, .fa-whatsapp-square:hover{
 	color:#fdff66;
 	font-size: 1.8rem!important;
 }
