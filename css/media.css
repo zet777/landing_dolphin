@@ -46,7 +46,10 @@
 	#particles-js{
 		display: none;
 	}
-
+	.modal-dialog{
+		max-width: 320px;
+	}
+	
 }
 
 /* Portrait tablets and small desktops */
