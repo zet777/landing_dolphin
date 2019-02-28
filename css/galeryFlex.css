@@ -13,12 +13,10 @@
 	box-shadow: 0 0 19px 3px #000; margin: 1px; /* красивости тени */
 }
 .item:hover {
-	 flex: 0.1 0.1 400px;
-	background-size: 100% 100%
+	 flex: 0.1 0.1 300px;
+	background-size: 100% 100%;
 }
-
 .img1 { 
-	background: url('../img/2300.jpg') 0 0 no-repeat; 
-}
-.img2 { background: url('https://picsum.photos/400/300?image=533') 0 0 no-repeat; }
-.img3 { background: url('https://picsum.photos/400/300?image=534') 0 0 no-repeat; }
+	background: url('../img/520.jpg') 0 0 no-repeat; }
+.img2 { background: url('../img/hp2300.jpg') 0 0 no-repeat; }
+.img3 { background: url('../img/4002sp.jpg') 0 0 no-repeat; }
