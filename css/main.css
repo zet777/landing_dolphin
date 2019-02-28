@@ -259,9 +259,10 @@ span.fz15px{
 	padding-left: 37px;
 	padding-top: 20px;
 	font-size: 1.17rem;
-	background-image: url(../img/check-icon.png);
+	background-image: url(../img/touch.png);
 	background-repeat: no-repeat;
-	background-position: 0 25px;	
+	background-position: 0 15px;
+	background-size: 25px;	
 }
 .header-left__check:last-child{
 	padding-bottom: 50px;	
