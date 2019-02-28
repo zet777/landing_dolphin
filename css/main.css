@@ -238,8 +238,7 @@ span.fz15px{
 /* Global end */
 
 
-.about{	
-}
+
 .buy{	
 }
 
@@ -284,29 +283,27 @@ span.fz15px{
 /* Header css end */
 
 /* Obout css */
-.about-right{
-	width: 320px;
-	height: 215px;
-	margin-right: 50px;
-	margin-top: 50px;
-}
 
-
-.about-right p{
-	margin-top: 100px;
-	margin-left: 150px;
-	color: #fff;
-	width: 370px;
-	height: 215px;
-}
-.about-left {
+.about{	
 	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 100px;
-	max-width: 850px;
+	padding-bottom: 50px;
+}
+.about__right{
+	width: 500px;
+	margin-right: 50px;
 }
 
-.about-left p {
+
+.about__right p{
+	margin-top: 100px;
+
+}
+.about__left {
+	padding-left: 50px;
+	max-width: 500px;
+}
+
+.about__left p {
 	font-size: 1.1rem;
 	margin-bottom: 0 !important;
 }
