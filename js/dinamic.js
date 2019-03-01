@@ -1,3 +1,4 @@
+
 /*Переворот карточки по наведению на класс scan-all*/
 
 $('.scan-all>span').hover(
@@ -86,3 +87,47 @@ $(function(){
         });
 });
 /* end */
+
+/* Плавное появление надпесей на картинках css/galeryFlex.css */
+
+$('.img1').hover(
+  function(){
+   $('.galeryFlex__2300').removeClass('h-hide');
+   $('.galeryFlex__2300').addClass('h-show');
+  },
+  function(){
+    $('.galeryFlex__2300').removeClass('h-show');
+   $('.galeryFlex__2300').addClass('h-hide');
+ });
+
+$('.img2').hover(
+  function(){
+   $('.galeryFlex__770').removeClass('h-hide');
+   $('.galeryFlex__770').addClass('h-show');
+  },
+  function(){
+    $('.galeryFlex__770').removeClass('h-show');
+   $('.galeryFlex__770').addClass('h-hide');
+ });
+
+$('.img3').hover(
+  function(){
+   $('.galeryFlex__bh282').removeClass('h-hide');
+   $('.galeryFlex__bh282').addClass('h-show');
+  },
+  function(){
+    $('.galeryFlex__bh282').removeClass('h-show');
+   $('.galeryFlex__bh282').addClass('h-hide');
+ });
+
+$('.img4').hover(
+  function(){
+   $('.galeryFlex__4002sp').removeClass('h-hide');
+   $('.galeryFlex__4002sp').addClass('h-show');
+  },
+  function(){
+    $('.galeryFlex__4002sp').removeClass('h-show');
+   $('.galeryFlex__4002sp').addClass('h-hide');
+ });
+
+/*end*/
