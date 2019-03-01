@@ -34,6 +34,8 @@ body{
 	background-attachment: fixed;
 	background-size: 100%;
 }
+
+
 header{
 	max-width: 1280px;
 	display: -webkit-box!important;
@@ -92,6 +94,15 @@ footer{
 caption{
 	padding-left: 10px;
 }
+
+.h-show{
+	opacity: 1;
+	transition:all 2s ease-out;
+
+	}
+.h-hide{
+	opacity: 0;
+}
 .ulli{
 	margin-top: 20px;
 }
@@ -113,6 +124,32 @@ caption{
 	font-family:verdana;
 	font-size:11px;
 }
+
+.scr{
+	
+}
+.hak{
+	color: #fff;
+	max-width: 1280px;
+	margin: 0 auto;
+	border-left: 1px solid #5165e2;
+	border-right: 1px solid #5165e2;
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+.hakscr{   
+	max-width: 1280px;
+	margin: 0 auto;
+	border-left: 1px solid #5165e2;
+	border-right: 1px solid #5165e2;
+	padding-top: 40px;
+	padding-bottom: 35px;
+	font-size: 42px;
+}
+.fa{
+	padding-right: 4px;
+}
+
 .bg-yellow {
 	background: #ff6!important;
 }
@@ -150,7 +187,7 @@ span.fz15px{
 /* Прозрачный голубой фон с белыми буквами */
 .back-blue0{
 	background-color: #2b8affbf;
-	color:#000;
+	color:#fff;
 }
 
 /* Просто дополнительный класс 
@@ -311,8 +348,12 @@ span.fz15px{
 	font-size: 1.1rem;
 	margin-bottom: 0 !important;
 }
+.galeryFlex>.item>span{
+	font-size: 1rem;
+} 
+/* Obout css end*/
 
-
+/* Our dignity */
 .dignity-left{
 	margin-left: 50px;
 	max-width: 590px;
@@ -340,31 +381,12 @@ span.fz15px{
 	background-repeat: no-repeat;
 	background-position: 0 25px;
 }
-.hak{
-	color: #fff;
-	max-width: 1280px;
-	margin: 0 auto;
-	border-left: 1px solid #5165e2;
-	border-right: 1px solid #5165e2;
-	padding-top: 40px;
-	padding-bottom: 35px;
-}
-.hakscr{   
-	max-width: 1280px;
-	margin: 0 auto;
-	border-left: 1px solid #5165e2;
-	border-right: 1px solid #5165e2;
-	padding-top: 40px;
-	padding-bottom: 35px;
-	font-size: 42px;
-}
-.scr{
-	
-}
 
-.fa{
-	padding-right: 4px;
-}
+
+
+/* Our dignity end*/
+
+
 
 .pointerY>span{
 	cursor: pointer;
