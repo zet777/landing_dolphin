@@ -247,6 +247,9 @@ span.fz15px{
 }
 
 /* Header css */
+.header{
+	height: : 50vh;
+}
 .header-left{
 	color: #fff;
 	font-size: 36px;
@@ -286,6 +289,7 @@ span.fz15px{
 /* Obout css */
 
 .about{	
+	height: 50vh;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
