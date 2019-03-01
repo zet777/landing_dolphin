@@ -9,8 +9,8 @@
 	flex:20%; /* = flex-basis:20%; */
 
 	transition: flex 300ms ease;
-
-	box-shadow: 0 0 19px 3px #000; margin: 1px; /* красивости тени */
+	
+	box-shadow: 0 0 19px 3px #5165e2; margin: 1px; /* красивости тени */
 }
 .item:hover {
 	 flex: 0.1 0.1 300px;
