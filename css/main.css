@@ -248,7 +248,7 @@ span.fz15px{
 
 /* Header css */
 .header{
-	height: : 50vh;
+	
 }
 .header-left{
 	color: #fff;
@@ -289,7 +289,6 @@ span.fz15px{
 /* Obout css */
 
 .about{	
-	height: 50vh;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -362,65 +361,6 @@ span.fz15px{
 .scr{
 	
 }
-.buy__card{
-	width: 300px;
-	color: #fff;
-	background: #5165e2;
-	padding-bottom: 20px;
-	border-radius: 10px;
-	margin-left: 50px;
-	margin-bottom: 50px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-align-self: flex-end;
-	-ms-flex-item-align: end;
-	align-self: flex-end;
-
-}
-.buy__card:last-child{
-	width: 300px;
-	color: #fff;
-	background: #5165e2;
-	padding-bottom: 20px;
-	border-radius: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 50px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-
-}
-.buy__card-text {
-	text-align: center;
-	font-size: 38px;
-	padding-top: 17px;
-	padding-bottom: 17px;
-}
-.buy__card-price{
-	color: #5165e2;
-	background: #fff;
-	border-left: 2px solid #5165e2;
-	border-right: 2px solid #5165e2;
-	font-size: 40px;
-	font-weight: 600;
-	text-align: center;
-
-}
-
 
 .fa{
 	padding-right: 4px;
