@@ -9,7 +9,7 @@
 }
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 320px) and (max-width: 1060px) {
+@media (min-width: 991px) and (max-width: 1060px) {
 	.header-right {
 		width: 320px; 
 		height: 215px;
@@ -55,16 +55,132 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.header-right {
+		width: 320px; 
+		height: 215px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-left__check{
+		font-size: 20px;
+	}
+	.plan{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}	
+	.about{
+		margin-top: 50px;
+	}  
+	.dignity-left {
+		margin-left: 5px;
+		max-width: 590px;
+	}  
+	.header-right__shape {
+		margin-left: 5px;
+	}  
+	.about__left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header-left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#particles-js{
+		display: none;
+	}
+	.modal-dialog{
+		max-width: 320px;
+	}
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+	.header-right {
+		width: 320px; 
+		height: 215px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-left__check{
+		font-size: 20px;
+	}
+	.plan{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}	
+	.about{
+		margin-top: 50px;
+	}  
+	.dignity-left {
+		margin-left: 5px;
+		max-width: 590px;
+	}  
+	.header-right__shape {
+		margin-left: 5px;
+	}  
+	.about__left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header-left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#particles-js{
+		display: none;
+	}
+	.modal-dialog{
+		max-width: 320px;
+	}
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
 
-	
+	.header-right {
+		width: 320px; 
+		height: 215px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-left__check{
+		font-size: 20px;
+	}
+	.plan{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}	
+	.about{
+		margin-top: 50px;
+	}  
+	.dignity-left {
+		margin-left: 5px;
+		max-width: 590px;
+	}  
+	.header-right__shape {
+		margin-left: 5px;
+	}  
+	.about__left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header-left{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#particles-js{
+		display: none;
+	}
+	.modal-dialog{
+		max-width: 320px;
+	}
 
 }
