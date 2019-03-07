@@ -351,6 +351,29 @@ span.fz15px{
 .galeryFlex>.item>span{
 	font-size: 1rem;
 } 
+
+.galeryFlex {
+	text-align: center;
+	font-weight: 600;
+	color: #fdff66;
+	text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
 /* Obout css end*/
 
 /* Our dignity */
@@ -368,7 +391,7 @@ span.fz15px{
 	padding-top: 27px;
 	font-size: 20px;
 	display: block;
-	background-image: url(../img/shape.png);
+	background-image: url(../img/shape-y.png);
 	background-repeat: no-repeat;
 	background-position: 0 25px;
 }
@@ -377,7 +400,7 @@ span.fz15px{
 	padding-top: 27px;
 	font-size: 20px;
 	display: block;
-	background-image: url(../img/shape.png);
+	background-image: url(../img/shape-y.png);
 	background-repeat: no-repeat;
 	background-position: 0 25px;
 }
