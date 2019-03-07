@@ -97,6 +97,8 @@ caption{
 
 .h-show{
 	opacity: 1;
+	-webkit-transition:all 2s ease-out;
+	-o-transition:all 2s ease-out;
 	transition:all 2s ease-out;
 
 	}
@@ -244,6 +246,8 @@ span.fz15px{
 /* Button end */
 
 .nav-link{
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
 	transition: all .5s;
 }
 
@@ -546,6 +550,8 @@ span.fz15px{
 .fa-viber, .fa-whatsapp-square{
 	cursor:pointer;
 	margin-right: 10px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
 	transition: all .3s;
 } 
 .fa-telegram:hover,
