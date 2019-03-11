@@ -109,6 +109,15 @@ $('.img2').hover(
     $('.galeryFlex__770').removeClass('h-show');
    $('.galeryFlex__770').addClass('h-hide');
  });
+$('.img7890').hover(
+  function(){
+   $('.galeryFlex__7890').removeClass('h-hide');
+   $('.galeryFlex__7890').addClass('h-show');
+  },
+  function(){
+    $('.galeryFlex__7890').removeClass('h-show');
+   $('.galeryFlex__7890').addClass('h-hide');
+ });
 
 $('.img3').hover(
   function(){
