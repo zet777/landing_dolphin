@@ -1,7 +1,7 @@
 .galeryFlex {
 	display: flex;
 	overflow:hidden; /*скроем тень*/
-	
+
 }
 .item {
 	height:300px;
@@ -17,9 +17,9 @@
 .img2 { background: url('../img/770.jpg') 0 0 no-repeat; }
 .img3 { 
 	background: url('../img/bh282.jpg') 0 0 no-repeat; 
-	background-size: 100%;
+	
 }
 	.img4 { 
 	background: url('../img/4002sp.jpg') 0 0 no-repeat; 
-	background-size: 100%;
+	
 }
