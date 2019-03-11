@@ -282,12 +282,36 @@
 @media (max-width: 375px) {
 
 	body{
-		width: 420px;
+		width: 375px;
+	}
+	h1{
+		font-size: 1.6rem!important;
+
+	}
+	.header-left{
+		padding-top: 10px;
+	}
+	.header-left__check{
+		font-size: 1rem;
+		background-position: 10px 2px;
+	    background-size: 24px 25px;
+	    padding-top: 10px;
+	}
+	.header-left__check:last-child {
+    	padding-bottom: 0px;
+	}
+	.card-dl1{
+		width: 250px;
+    	height: 200px;
+	}
+	.about{
+		margin-top: 0;
+		padding-top: 0;
 	}
 	.about__right {
-    width: 375px;
-    margin-right: 0;
-    margin-left: 22px;
+		width: 375px;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 	.galeryFlex {
 		display: flex;
@@ -316,4 +340,12 @@
 		background-size: 100%;
 	}
 
+	.order__left{
+		margin-left: 20px;
+	}
+	.footer__map {
+		padding-bottom: 50px;
+		margin-left: 26px;
+		padding-right: 0px;
+	}
 }
