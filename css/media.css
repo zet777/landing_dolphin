@@ -402,6 +402,7 @@
 	}
 	.img1 { background: url('../img/hp2300.jpg') 0 0 no-repeat; }
 	.img2 { background: url('../img/770.jpg') 0 0 no-repeat; }
+	.img7890 { background: url('../img/7890.jpg') 0 0 no-repeat; }
 	.img3 { 
 		background: url('../img/bh282.jpg') 0 0 no-repeat; 
 		background-size: 100%;
@@ -416,6 +417,10 @@
 	}
 	.footer__requisites{
 		margin-left: 10px;
+	}
+	.footer__contact{
+		margin-left: 10px;
+		padding-left: 10px;
 	}
 	.footer__map {
 		padding-bottom: 50px;
