@@ -1,25 +1,35 @@
 .galeryFlex {
 	display: flex;
 	overflow:hidden; /*скроем тень*/
-
+	margin-top: 37px;
 }
 .item {
-	height:300px;
+	height:200px;
 	flex:20%; /* = flex-basis:20%; */
 	transition: flex .5s ease-out;
 	box-shadow: 0 0 19px 3px #5165e2; margin: 1px; /* красивости тени */
 }
 .item:hover {
-	 flex: 0.1 0.1 300px;
+	 flex: 0.1 0.1 200px;
 	background-size: 100% 100%;
 }
-.img1 { background: url('../img/hp2300.jpg') 0 0 no-repeat; }
-.img2 { background: url('../img/770.jpg') 0 0 no-repeat; }
+.img1 { 
+	background: url('../img/hp2300.jpg') 0 0 no-repeat; 
+	background-size: 300px;
+}
+.img2 { 
+	background: url('../img/770.jpg') 0 0 no-repeat; 
+	background-size: 300px;
+}
+.img7890 { 
+	background: url('../img/7890.jpg') 0 0 no-repeat; 
+	background-size: 300px;
+}
 .img3 { 
 	background: url('../img/bh282.jpg') 0 0 no-repeat; 
-	
+	background-size: 200px;
 }
 	.img4 { 
 	background: url('../img/4002sp.jpg') 0 0 no-repeat; 
-	
+	background-size: 200px;
 }
