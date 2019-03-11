@@ -6,7 +6,7 @@
 .item {
 	height:200px;
 	flex:20%; /* = flex-basis:20%; */
-	transition: flex .5s ease-out;
+	transition: flex .4s ease-out;
 	box-shadow: 0 0 19px 3px #5165e2; margin: 1px; /* красивости тени */
 }
 .item:hover {
