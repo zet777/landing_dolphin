@@ -532,9 +532,8 @@ span.fz15px{
 	margin-bottom: 0;
 }
 .footer__map{
+	padding-bottom: 50px;
 	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 50px;	
 	
 }
 .footer__map p{
