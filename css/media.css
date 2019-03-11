@@ -349,3 +349,77 @@
 		padding-right: 0px;
 	}
 }
+
+@media (max-width: 320px) {
+
+	body{
+		width: 320px;
+	}
+	h1{
+		font-size: 1.6rem!important;
+
+	}
+	.header-left{
+		padding-top: 10px;
+	}
+	.header-left__check{
+		font-size: 1rem;
+		background-position: 10px 2px;
+	    background-size: 24px 25px;
+	    padding-top: 10px;
+	}
+	.header-left__check:last-child {
+    	padding-bottom: 0px;
+	}
+	.card-dl1{
+		width: 250px;
+    	height: 200px;
+	}
+	.about{
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.about__right {
+		width: 320px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.galeryFlex {
+		display: flex;
+		overflow:hidden; /*скроем тень*/
+		flex-direction: column;
+
+	}
+	.item {
+		height:300px;
+		flex: 0.1 0.1 70px;
+		transition: flex .5s ease-out;
+		box-shadow: 0 0 19px 3px #5165e2; margin: 1px; /* красивости тени */
+	}
+	.item:hover {
+		flex: 0.1 0.1 300px;
+		background-size: 100% 100%;
+	}
+	.img1 { background: url('../img/hp2300.jpg') 0 0 no-repeat; }
+	.img2 { background: url('../img/770.jpg') 0 0 no-repeat; }
+	.img3 { 
+		background: url('../img/bh282.jpg') 0 0 no-repeat; 
+		background-size: 100%;
+	}
+	.img4 { 
+		background: url('../img/4002sp.jpg') 0 0 no-repeat; 
+		background-size: 100%;
+	}
+
+	.order__left{
+		margin-left: 20px;
+	}
+	.footer__requisites{
+		margin-left: 10px;
+	}
+	.footer__map {
+		padding-bottom: 50px;
+		margin-left: 0px;
+		padding-right: 0px;
+	}
+}
