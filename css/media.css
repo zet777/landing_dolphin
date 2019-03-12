@@ -254,6 +254,7 @@
 		display: flex;
 		overflow:hidden; /*скроем тень*/
 		flex-direction: column;
+		margin-left: 36px;
 
 	}
 	.item {
@@ -272,9 +273,18 @@
 		background: url('../img/bh282.jpg') 0 0 no-repeat; 
 		background-size: 100%;
 	}
+	.img7890 { 
+		background: url('../img/7890.jpg') 0 0 no-repeat; 
+		background-size: 100%;
+	}
 	.img4 { 
 		background: url('../img/4002sp.jpg') 0 0 no-repeat; 
 		background-size: 100%;
+	}
+	.footer__map {
+		padding-bottom: 50px;
+		margin-left: 50px;
+		padding-right: 0px;
 	}
 	
 }	
