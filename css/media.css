@@ -115,6 +115,7 @@
 		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 77px;
 	}
 	.header-left__check{
 		font-size: 20px;
@@ -141,8 +142,13 @@
 		margin-left: 5px;
 	}  
 	.about__left{
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 0 auto;
+	}
+	.about__right {
+    	max-width: 700px;
+    	margin: 0 auto;
 	}
 	.header-left{
 		padding-left: 10px;
@@ -153,6 +159,15 @@
 	}
 	.modal-dialog{
 		max-width: 320px;
+	}
+	footer{
+		justify-content: center;
+	}
+	.footer__map{
+		margin: 0 auto;
+    	padding-right: 0;
+    	padding-bottom: 0;
+    	padding-top: 50px;
 	}
 
 }
@@ -165,6 +180,7 @@
 		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 77px;
 	}
 	.header-left__check{
 		font-size: 20px;
