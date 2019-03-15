@@ -215,9 +215,13 @@
 		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 77px;
 	}
 	.header-left__check{
 		font-size: 20px;
+	}
+	.header-left__check:last-child {
+    	padding-bottom: 12px;
 	}
 	.plan{
 		text-align: center;
