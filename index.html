@@ -67,8 +67,8 @@
               <li class="nav-item">
                 <a class="nav-link color-black" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-envelope" ></i>salon@clubprint.ru</a></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link color-black" href="tel:+79009476805"><i class="fa fa-phone"></i>8-800-80-80 </a></a>
+              <li class="nav-item header-phone">
+                <a class="nav-link color-black" href="tel:+79009476805"><i class="fa fa-phone"></i>+7 (900) 947-68-05,+7 (473) 253-73-83</a>
               </li>
             </ul>
           </div>
@@ -601,21 +601,23 @@
     <div class="footer__contact">
       <p>Контакты:</p>
       <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Дарвина, 9</p>
-      <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+78800000000">  8 800 000 00 00</a></p>
+      <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+79009476805">  +7 (900) 947-68-05</a></p>
+      <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Тимирязева, 12Б</p>
+      <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+74732537383">  +7 (473) 253-73-83</a></p>
       <p class="footer__soc-icon"><span><i class="fab fa-telegram"></i></span><span><i class="fab fa-viber"></i></span><span><i class="fab fa-whatsapp-square"></i></span></p>
       <!-- Защита от спама-->
       <script language="JavaScript">
-        var login = 'info';
-        var server = 'domain.ru';
+        var login = 'salon';
+        var server = 'clubprint.ru';
         var email = login+'@'+server;
         var url = 'mailto:'+email;
         document.write('<p class="footer__mail"><i class="fas fa-envelope"></i>  <a style="color:#ffffff; "href="'+url+'">'+email+'</a></p>');
       </script>
       <!-- /Защита от спама-->
 
-      <p class="footer__work-time">Пн - Вс: 9:00 - 21:00 </p>
-      <p class="footer__work-time">Без выходных</p>
-      <div><div class="container">
+      <p class="footer__work-time">Пн - Пт: 9:00 - 18:00 </p>
+      <!-- <p class="footer__work-time">Без выходных</p> -->
+      <div><div class="container-btn">
         <div class="my-5 mx-auto text-center">
           <button class="btn btn-yellow btn-lg" data-toggle="modal" data-target="#exampleModal">Отправить сообщение</button>
         </div>
@@ -665,9 +667,8 @@
       </div></div>
     </div>
     <div class="footer__map">
-      <p>Офис производства</p>
-      <iframe class="footer__map-m" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=100667498050" width="320px" height="100%" frameborder="0">
-      </iframe>
+      <p>Офисы производства</p>
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4dd99fcf04bff30deee8e4c8373f560678b818eb06a39cc8ceb3d5d2047453ae&amp;width=320&amp;height=302&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
   </footer>
   <div id="toTop">^ Наверх</div>
