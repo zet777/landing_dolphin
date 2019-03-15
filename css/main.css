@@ -253,11 +253,16 @@ span.fz15px{
 
 .nav-item>.nav-link:hover{
 	cursor: pointer;
-  	border: 1px solid #fdff66;
+  	border: 0px!important;
   	color: #5165e2!important;
 }
+
 .navbar-light .navbar-nav .nav-link {
 	color: #000!important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #5165e2!important;
+	font-size: 1.1rem;
 }
 /* Center */
 .cntr{
@@ -324,6 +329,10 @@ span.fz15px{
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+}
+
+.header-phone{
+	margin-left: 50px;
 }
 /* Header css end */
 
@@ -560,5 +569,8 @@ span.fz15px{
 }
 .footer__work-time{
 	
+}
+.container-btn{
+	width: 242px;
 }
 /* Footer end */
