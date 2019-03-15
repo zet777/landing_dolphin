@@ -228,6 +228,9 @@
 	.header-left__check:last-child {
     	padding-bottom: 12px;
 	}
+	.header-phone{
+		margin-left: 0;
+	}
 	.plan{
 		text-align: center;
 		display: -webkit-box;
