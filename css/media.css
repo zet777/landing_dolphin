@@ -219,6 +219,11 @@
 	}
 	.header-left__check{
 		font-size: 20px;
+		padding-top: 10px;
+		background-image: url(../img/touch.png);
+    	background-size: 25px;
+    	background-repeat: no-repeat;
+    	background-position: 0 0;
 	}
 	.header-left__check:last-child {
     	padding-bottom: 12px;
