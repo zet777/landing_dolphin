@@ -3,7 +3,7 @@
   if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
  if (isset($_POST['name'])) {$name = $_POST['name'];}
 
- $address = "salon@clubprint.ru";
+ $address = "dolphin136@yandex.ru";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
  $mes = "Тема: Заказ обратного звонка!  \nТелефон: $phone\nИмя: $name";
