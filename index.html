@@ -605,11 +605,21 @@
           </div>
         </form> -->
         <div class="form">
-          <p>Оставьте ваши контакты и наш консультант свяжется с вами </p>
           <form method="post" action="send.php" id="formMain">
-            <input id="name" type="text" name="name" placeholder="Введите ваше имя" maxlength="30" autocomplete="off" />
-            <input id="telephone" type="text" name="telephone" placeholder="Введите ваш телефон" maxlength="30" autocomplete="off"/>
-            <div id="messegeResult"><input class="btn" id="button" type="button"  value="Отправить" onclick="AjaxFormRequest('messegeResult', 'formMain', 'send.php')"/></div>
+            <div class="form-group">
+              <div class="col-sm-10">
+                <input id="name" type="text" class="form-control" name="name" placeholder="Введите ваше имя" maxlength="30" autocomplete="off" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10">
+               <input id="phone" type="text" class="form-control" name="phone" placeholder="Введите ваш телефон" maxlength="30" autocomplete="off"/>
+              </div>
+            </div>
+
+            
+           
+            <div id="messegeResult"><input class="btn btn-yellow btn-lg" id="button" type="button"  value="Отправить" onclick="AjaxFormRequest('messegeResult', 'formMain', 'send.php')"/></div>
           </form>
         </div>
       </div>
