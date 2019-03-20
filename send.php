@@ -1,17 +1,17 @@
 <?php
- /* Проверка существования переменных */
-  if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
- if (isset($_POST['name'])) {$name = $_POST['name'];}
-
- $address = "dolphin136@yandex.ru";
-
-/* А здесь прописывается текст сообщения, \n - перенос строки */
- $mes = "Тема: Заказ обратного звонка!  \nТелефон: $phone\nИмя: $name";
-
-/* А эта функция как раз занимается отправкой письма на указанный вами email */
-$sub='Заказ'; //сабж
-$email='Заказ <clubprint.ru>'; // от кого
- $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$email");
-
-header("Location: /"); /* Для возврата на главную */
+if($_POST)
+    {
+    $to = "dolphin136@yandex.ru"; //КУДА ОТПРАВЛЯТЬ ПИСЬМО
+    $subject = "Заказ звонка"; //ТЕМА
+    $message = '<span style="font-weight:bold;color:#ff6600;font-size:18px;"><i>Заказ звонка</i> </span><br><br>
+    Имя: <span style="font-weight:bold;color:#339900;">'.$_POST['name'].'</span><br>
+    Телефон: <span style="font-weight:bold;color:#339900;"> '.$_POST['telephone'].'</span>';
+    $headers = "Content-type: text/html; charset=UTF-8 \r\n";
+    $headers .= "From: <dolphin136@yandex.ru>\r\n"; // ОТ КОГО, ПРИДУМАЙТЕ ЯЩИК ИЛИ УКАЖИТЕ ПОЧТУ СВОЕГО САЙТА.
+    $result = mail($to, $subject, $message, $headers);
+  
+    if ($result){
+        echo "<p>Сообщение успешно отправлено. Скоро Вам перезвонят</p>";
+    }
+    }
 ?>
