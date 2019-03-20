@@ -7,7 +7,7 @@ if($_POST)
     Имя: <span style="font-weight:bold;color:#339900;">'.$_POST['name'].'</span><br>
     Телефон: <span style="font-weight:bold;color:#339900;"> '.$_POST['phone'].'</span>';
     $headers = "Content-type: text/html; charset=UTF-8 \r\n";
-    $headers .= "From: <dolphin136@yandex.ru>\r\n"; // ОТ КОГО, ПРИДУМАЙТЕ ЯЩИК ИЛИ УКАЖИТЕ ПОЧТУ СВОЕГО САЙТА.
+    $headers .= "From: <dolphin136@yandex.ru>\r\n"; // 
     $result = mail($to, $subject, $message, $headers);
   
     if ($result){
