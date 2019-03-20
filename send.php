@@ -13,5 +13,5 @@ $sub='Заказ'; //сабж
 $email='Заказ <clubprint.ru>'; // от кого
  $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$email");
 
-
+header("Location: /"); /* Для возврата на главную */
 ?>
