@@ -615,135 +615,135 @@
             <div class="form-group">
               <div class="col-sm-10">
                <input id="phone" type="text" class="form-control" name="phone" placeholder="Введите ваш телефон" maxlength="30" autocomplete="off"/>
-              </div>
-            </div>
-
-            
-           
-            <div id="messegeResult"><input class="btn btn-yellow btn-lg" id="button" type="button"  value="Отправить" onclick="AjaxFormRequest('messegeResult', 'formMain', 'send.php')"/></div>
-          </form>
-        </div>
-      </div>
-    </section>
-    <!-- Order end-->
-
-    <!-- Footer-->
-    <footer id="contacts" class="back-blue0">
-      <div class="footer__requisites">
-        <p>Реквизиты:</p>
-        <p>ИП Захарченко Роман Николаевич</p>
-        <p>ИНН 361801729763</p>
-        <p>ОГРНИП 310362730200034</p>
-        <p>р/с 40802810313000063671 </p>
-        <p>Центрально-Черноземный банк<br/>Сбербанка России</p>
-        <p>к/с 30101810600000000681</p>
-        <p>БИК: 042007681</p>
-      </div>
-      <div class="footer__contact">
-        <p>Контакты:</p>
-        <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Дарвина, 9</p>
-        <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+79009476805">  +7 (900) 947-68-05</a></p>
-        <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Тимирязева, 12Б</p>
-        <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+74732537383">  +7 (473) 253-73-83</a></p>
-        <p class="footer__soc-icon"><span><i class="fab fa-telegram"></i></span><span><i class="fab fa-viber"></i></span><span><i class="fab fa-whatsapp-square"></i></span></p>
-        <!-- Защита от спама-->
-        <script language="JavaScript">
-          var login = 'salon';
-          var server = 'clubprint.ru';
-          var email = login+'@'+server;
-          var url = 'mailto:'+email;
-          document.write('<p class="footer__mail"><i class="fas fa-envelope"></i>  <a style="color:#ffffff; "href="'+url+'">'+email+'</a></p>');
-        </script>
-        <!-- /Защита от спама-->
-
-        <p class="footer__work-time">Пн - Пт: 9:00 - 18:00 </p>
-        <!-- <p class="footer__work-time">Без выходных</p> -->
-        <div><div class="container-btn">
-          <div class="my-5 mx-auto text-center">
-            <button class="btn btn-yellow btn-lg" data-toggle="modal" data-target="#exampleModal">Отправить сообщение</button>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 style="color:#000" class="modal-title" id="exampleModalLabel">Обратная связь</h2>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form id="contactForm" action="//formspree.io/salon@clubprint.com" method="POST">
-                  <div class="form-group">
-                    <label for="name" style="color:#000">Ваше имя:</label>
-                    <input id="name" class="form-control" name="name" required type="text" placeholder="Иван Иванович">
-                  </div>
-                  <div class="form-group">
-                    <label for="email" style="color:#000">Ваш E-mail:</label>
-                    <input id="email" class="form-control" name="email" required type="email" placeholder="ivanov@email.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="phone" style="color:#000">Ваш телефон:</label>
-                    <input id="phone" class="form-control" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
-                  </div>
-                  <div class="form-group">
-                    <label for="message" style="color:#000">Текст сообщения:</label>
-                    <textarea id="message" class="form-control" required name="message" rows="4"></textarea>
-                  </div>
-                  <div class="form-group form-check">
-                    <input id="check" class="form-check-input" checked type="checkbox">
-                    <label class="form-check-label" for="check" style="color:#000">Я добровольно отправляю свои данные</label>
-                  </div>
-                  <button id="button" class="btn btn-yellow" type="submit">Отправить</button>
-                  <div class="result">
-                    <span id="answer"></span>
-                    <!-- <span id="loader" style="display:none"><img src="images/loader.gif" alt=""></span> -->
-                  </div>
-                </form>
-              </div>
+             </div>
+           </div>
+           <div class="form-group">
+            <div id="messegeResult"><input class="btn btn-yellow btn-lg" id="button" type="button"  value="Отправить" onclick="AjaxFormRequest('messegeResult', 'formMain', 'send.php')"/>
             </div>
           </div>
-        </div></div>
+        </form>
       </div>
-      <div class="footer__map">
-        <p>Офисы производства</p>
+    </div>
+  </section>
+  <!-- Order end-->
 
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4dd99fcf04bff30deee8e4c8373f560678b818eb06a39cc8ceb3d5d2047453ae&amp;width=320&amp;height=302&amp;lang=ru_RU&amp;scroll=true"></script>
-      </div>
-      <div class="footer__copyright">
-        © 2018 «Клуб-Принт». Все права защищены.
-      </div>
-    </footer>
-    <div id="toTop">^ Наверх</div>
-    <!-- Footer end -->
-    <!-- Маска для номера телефона -->
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <!-- Инициализация и Ajax-запрос -->
-    <script src="js/main.js"></script>
-    <script src="js/hak-ie.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/transform.js"></script>
-    <script src="js/dinamic.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="cookie/load.js" ></script>  
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <!-- Footer-->
+  <footer id="contacts" class="back-blue0">
+    <div class="footer__requisites">
+      <p>Реквизиты:</p>
+      <p>ИП Захарченко Роман Николаевич</p>
+      <p>ИНН 361801729763</p>
+      <p>ОГРНИП 310362730200034</p>
+      <p>р/с 40802810313000063671 </p>
+      <p>Центрально-Черноземный банк<br/>Сбербанка России</p>
+      <p>к/с 30101810600000000681</p>
+      <p>БИК: 042007681</p>
+    </div>
+    <div class="footer__contact">
+      <p>Контакты:</p>
+      <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Дарвина, 9</p>
+      <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+79009476805">  +7 (900) 947-68-05</a></p>
+      <p class="footer__city"><i class="fas fa-city"></i> Воронеж, ул. Тимирязева, 12Б</p>
+      <p class="footer__phone"><i class="fas fa-phone"></i><a style="color:#ffffff"; href="tel:+74732537383">  +7 (473) 253-73-83</a></p>
+      <p class="footer__soc-icon"><span><i class="fab fa-telegram"></i></span><span><i class="fab fa-viber"></i></span><span><i class="fab fa-whatsapp-square"></i></span></p>
+      <!-- Защита от спама-->
+      <script language="JavaScript">
+        var login = 'salon';
+        var server = 'clubprint.ru';
+        var email = login+'@'+server;
+        var url = 'mailto:'+email;
+        document.write('<p class="footer__mail"><i class="fas fa-envelope"></i>  <a style="color:#ffffff; "href="'+url+'">'+email+'</a></p>');
+      </script>
+      <!-- /Защита от спама-->
 
-     ym(52812736, "init", {
-      clickmap:true,
-      trackLinks:true,
-      accurateTrackBounce:true,
-      webvisor:true
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/52812736" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+      <p class="footer__work-time">Пн - Пт: 9:00 - 18:00 </p>
+      <!-- <p class="footer__work-time">Без выходных</p> -->
+      <div><div class="container-btn">
+        <div class="my-5 mx-auto text-center">
+          <button class="btn btn-yellow btn-lg" data-toggle="modal" data-target="#exampleModal">Отправить сообщение</button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 style="color:#000" class="modal-title" id="exampleModalLabel">Обратная связь</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="contactForm" action="//formspree.io/salon@clubprint.com" method="POST">
+                <div class="form-group">
+                  <label for="name" style="color:#000">Ваше имя:</label>
+                  <input id="name" class="form-control" name="name" required type="text" placeholder="Иван Иванович">
+                </div>
+                <div class="form-group">
+                  <label for="email" style="color:#000">Ваш E-mail:</label>
+                  <input id="email" class="form-control" name="email" required type="email" placeholder="ivanov@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="phone" style="color:#000">Ваш телефон:</label>
+                  <input id="phone" class="form-control" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
+                </div>
+                <div class="form-group">
+                  <label for="message" style="color:#000">Текст сообщения:</label>
+                  <textarea id="message" class="form-control" required name="message" rows="4"></textarea>
+                </div>
+                <div class="form-group form-check">
+                  <input id="check" class="form-check-input" checked type="checkbox">
+                  <label class="form-check-label" for="check" style="color:#000">Я добровольно отправляю свои данные</label>
+                </div>
+                <button id="button" class="btn btn-yellow" type="submit">Отправить</button>
+                <div class="result">
+                  <span id="answer"></span>
+                  <!-- <span id="loader" style="display:none"><img src="images/loader.gif" alt=""></span> -->
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+    <div class="footer__map">
+      <p>Офисы производства</p>
+
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4dd99fcf04bff30deee8e4c8373f560678b818eb06a39cc8ceb3d5d2047453ae&amp;width=320&amp;height=302&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="footer__copyright">
+      © 2018 «Клуб-Принт». Все права защищены.
+    </div>
+  </footer>
+  <div id="toTop">^ Наверх</div>
+  <!-- Footer end -->
+  <!-- Маска для номера телефона -->
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <!-- Инициализация и Ajax-запрос -->
+  <script src="js/main.js"></script>
+  <script src="js/hak-ie.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/transform.js"></script>
+  <script src="js/dinamic.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="cookie/load.js" ></script>  
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(52812736, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/52812736" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
 
