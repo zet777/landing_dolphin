@@ -16,7 +16,7 @@ class ContactMailer
      * E-mail отправителя
      * @var string
      */
-    private static $emailFrom = 'send@yandex.ru';
+    private static $emailFrom = 'dolphin136@yandex.ru';
     /**
      * E-mail получателя
      * @var string
@@ -57,7 +57,7 @@ class ContactMailer
         // Устанавливает кодировку
         $mailer->CharSet = 'UTF-8';
         // Устанавливает E-mail и имя отправителя
-        $mailer->setFrom(self::$emailFrom, 'Имя отправителя');
+        $mailer->setFrom(self::$emailFrom, 'Обратная связь');
         // Добавляет E-mail получателя
         $mailer->addAddress(self::$emailTo);
         // Настройка HTML-формата
@@ -70,6 +70,7 @@ class ContactMailer
         // Отправляет письмо
         if ($mailer->send()) {
         	return true;
+        echo "<p>Сообщение успешно отправлено.</p>";
         }
     	return false;
     }
