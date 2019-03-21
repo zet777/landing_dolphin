@@ -21,7 +21,7 @@ class ContactMailer
      * E-mail получателя
      * @var string
      */
-    private static $emailTo = 'admin@yandex.ru';
+    private static $emailTo = 'dolphin136@yandex.ru';
 
     /**
      * Отправляет писмо, если письмо отправлено,
@@ -48,7 +48,7 @@ class ContactMailer
         // Логин или E-mail целиком
         $mailer->Username = self::$emailFrom;
         // Пароль от почтового ящика
-        $mailer->Password = 'XXXXXXXX';
+        $mailer->Password = 'darvina99';
         // Протокол соединения
         $mailer->SMTPSecure = 'ssl';
         // Порт для исходящаей почты
