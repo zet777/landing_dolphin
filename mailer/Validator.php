@@ -23,7 +23,7 @@ class Validator
      */
 	public static function isValidPhone($phone)
 	{
-		return preg_match("#\+7 \(\d{3}\) \d{3}\-\d{2}-\d{2}#", $phone);
+		return preg_match("##", $phone);
 	}
 
 	/**
