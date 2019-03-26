@@ -1,4 +1,29 @@
 /* Large desktops and laptops */
+@media (min-width: 2560px) {
+	#particles-js {
+	    position: absolute;
+	    margin-left: 663px;
+	    width: 1245px;
+	    height: 355px;
+	    background-image: url(main.css);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	}
+}
+@media (min-width: 1980px) {
+	#particles-js {
+	    position: absolute;
+	    margin-left: 360px;
+	    width: 1245px;
+	    height: 355px;
+	    background-image: url(main.css);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	}
+}
+
 @media (min-width: 1200px) {
 	.plan{
 		display: -webkit-box;
