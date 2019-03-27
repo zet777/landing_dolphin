@@ -70,7 +70,7 @@ section{
 	box-sizing: border-box;
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
 }
 footer{
 	max-width: 1280px;
@@ -346,7 +346,14 @@ span.fz15px{
 	width: 500px;
 	margin-right: 50px;
 }
-
+.about-work{
+	max-width: 1280px;
+    margin: 0 auto;
+}
+.about-work iframe{
+	margin: 0 auto;
+	width: 100%;
+}
 
 .about__right p{
 	margin-top: 100px;
