@@ -1,27 +1,34 @@
 /* Large desktops and laptops */
 @media (min-width: 2560px) {
 	#particles-js {
-	    position: absolute;
-	    margin-left: 663px;
-	    width: 1245px;
-	    height: 355px;
-	    background-image: url(main.css);
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    background-position: 50% 50%;
+		position: absolute;
+		margin-left: 663px;
+		width: 1245px;
+		height: 355px;
+		background-image: url(main.css);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	.is-request-sm{
+		display: none;
 	}
 }
 @media (min-width: 1980px) {
 	#particles-js {
-	    position: absolute;
-	    margin-left: 360px;
-	    width: 1245px;
-	    height: 355px;
-	    background-image: url(main.css);
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    background-position: 50% 50%;
+		position: absolute;
+		margin-left: 360px;
+		width: 1245px;
+		height: 355px;
+		background-image: url(main.css);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
 	}
+	.is-request-sm{
+		display: none;
+	}
+
 }
 
 @media (min-width: 1200px) {
@@ -37,11 +44,15 @@
 	}	
 
 	.container {
-    	max-width: 1250px!important;
-		}
+		max-width: 1250px!important;
+	}
+	.is-request-sm{
+		display: none!important;
+	}
 	
 
 }
+
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 991px) and (max-width: 1060px) {
@@ -109,7 +120,7 @@
 		max-width: 475px;
 	}
 	.order__right{
-		width: 500px;
+		width: 450px;
 		margin-right: 0px;
 	}
 	.footer__requisites{
@@ -127,6 +138,9 @@
 	.footer__map-m{
 		width: 100%;
 		height: 300px;
+	}
+	.is-request-sm{
+		display: none;
 	}
 	
 }
@@ -172,8 +186,8 @@
 		margin: 0 auto;
 	}
 	.about__right {
-    	max-width: 700px;
-    	margin: 0 auto;
+		max-width: 700px;
+		margin: 0 auto;
 	}
 	.header-left{
 		padding-left: 10px;
@@ -190,9 +204,9 @@
 	}
 	.footer__map{
 		margin: 0 auto;
-    	padding-right: 0;
-    	padding-bottom: 0;
-    	padding-top: 50px;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-top: 50px;
 	}
 
 }
@@ -245,6 +259,9 @@
 	.modal-dialog{
 		max-width: 320px;
 	}
+	.is-request-lg{
+		display: none;
+	}
 }
 
 /* Landscape phones and smaller */
@@ -262,12 +279,12 @@
 		font-size: 20px;
 		padding-top: 10px;
 		background-image: url(../img/touch.png);
-    	background-size: 25px;
-    	background-repeat: no-repeat;
-    	background-position: 0 0;
+		background-size: 25px;
+		background-repeat: no-repeat;
+		background-position: 0 0;
 	}
 	.header-left__check:last-child {
-    	padding-bottom: 12px;
+		padding-bottom: 12px;
 	}
 	.header-phone{
 		margin-left: 0;
@@ -298,8 +315,8 @@
 		padding-right: 10px;
 	}
 	.about__right {
-    	width: 400px;
-    	margin: 0 auto;
+		width: 400px;
+		margin: 0 auto;
 	}
 	.header-left{
 		padding-left: 10px;
@@ -348,9 +365,10 @@
 		margin-left: 50px;
 		padding-right: 0px;
 	}
-	
-}	
-
+	.is-request-lg{
+		display: none;
+	}
+}
 @media (max-width: 375px) {
 
 	body{
@@ -366,15 +384,15 @@
 	.header-left__check{
 		font-size: 1rem;
 		background-position: 10px 2px;
-	    background-size: 24px 25px;
-	    padding-top: 10px;
+		background-size: 24px 25px;
+		padding-top: 10px;
 	}
 	.header-left__check:last-child {
-    	padding-bottom: 0px;
+		padding-bottom: 0px;
 	}
 	.card-dl1{
 		width: 250px;
-    	height: 200px;
+		height: 200px;
 	}
 	.about{
 		margin-top: 0;
@@ -420,6 +438,9 @@
 		margin-left: 26px;
 		padding-right: 0px;
 	}
+	.is-request-lg{
+		display: none;
+	}
 }
 
 @media (max-width: 320px) {
@@ -437,15 +458,15 @@
 	.header-left__check{
 		font-size: 1rem;
 		background-position: 10px 2px;
-	    background-size: 24px 25px;
-	    padding-top: 10px;
+		background-size: 24px 25px;
+		padding-top: 10px;
 	}
 	.header-left__check:last-child {
-    	padding-bottom: 0px;
+		padding-bottom: 0px;
 	}
 	.card-dl1{
 		width: 250px;
-    	height: 200px;
+		height: 200px;
 	}
 	.about{
 		margin-top: 0;
@@ -498,5 +519,8 @@
 		padding-bottom: 50px;
 		margin-left: 0px;
 		padding-right: 0px;
+	}
+	.is-request-lg{
+		display: none;
 	}
 }
