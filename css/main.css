@@ -182,14 +182,13 @@ span.fz15px{
 
 /* Прозрачный белый фон c черными буквами*/
 .back-white0{
- background-color: #ffffffe0;
+ background-color: rgba(255, 255, 255, 0.7);
  color: #000;
 }
 
 /* Прозрачный голубой фон с белыми буквами */
 .back-blue0{
-	background-color: #2b8affbf;
-	color:#fff;
+	background-color: rgba(43, 138, 255, 0.7);/*Прозрачный фон IE*/
 }
 
 /* Просто дополнительный класс 
