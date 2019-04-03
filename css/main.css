@@ -1,5 +1,8 @@
 
 /* Global */
+.rubl {
+font-family: 'PT Sans', serif;
+}
 ::-moz-selection {
 	background: #ff6; 
 }
