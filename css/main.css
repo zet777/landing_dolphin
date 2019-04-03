@@ -565,15 +565,17 @@ span.fz15px{
 	
 }
 .footer__soc-icon .fa-telegram,
-.fa-viber, .fa-whatsapp-square{
+.fa-viber, .fa-whatsapp-square, .fa-vk{
 	cursor:pointer;
 	margin-right: 10px;
 	-webkit-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
+	
 } 
+
 .fa-telegram:hover,
-.fa-viber:hover, .fa-whatsapp-square:hover{
+.fa-viber:hover, .fa-whatsapp-square:hover, .fa-vk:hover{
 	color:#fdff66;
 	font-size: 1.8rem!important;
 }
