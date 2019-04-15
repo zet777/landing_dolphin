@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/recaptchalib.php';
-$secret='6LeYM54UAAAAANYYmMp7hRW7obOT2h4CWmZ4jWG5'
+$secret=''
 // пустой ответ каптчи
 $response = null;
 // Проверка вашего секретного ключа
