@@ -1,4 +1,16 @@
 <?php
+require_once __DIR__ . '/recaptchalib.php';
+$secret='6LeYM54UAAAAANYYmMp7hRW7obOT2h4CWmZ4jWG5'
+// пустой ответ каптчи
+$response = null;
+// Проверка вашего секретного ключа
+$reCaptcha = new ReCaptcha($secret);
+if ($_POST["g-recaptcha-response"]) {
+$response = $reCaptcha->verifyResponse(
+        $_SERVER["REMOTE_ADDR"],
+        $_POST["g-recaptcha-response"]
+    );
+}
 if($_POST)
     {
     $to = "dolphin136@yandex.ru"; //КУДА ОТПРАВЛЯТЬ ПИСЬМО
