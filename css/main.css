@@ -725,4 +725,8 @@ span.fz15px{
 #messegeResult{
 	padding-left: 15px;
 }	
+
+.footer__hr{
+	border-top: 1px solid rgba(6, 0, 0, 0.9);
+}
 /*Footer end */
