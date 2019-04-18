@@ -54,3 +54,24 @@ jQuery(document).ready(function($) {
     });
 
 });
+
+/*Чат от yandex*/ 
+(function () {
+    window['yandexChatWidgetCallback'] = function() {
+        try {
+            window.yandexChatWidget = new Ya.ChatWidget({
+                guid: 'c0d7c4ea-ca9e-4487-94fb-1abda6ba89ec',
+                buttonText: 'Ответим на ваши вопросы',
+                title: 'Чат с оператором',
+                theme: 'light',
+                collapsedDesktop: 'never',
+                collapsedTouch: 'always'
+            });
+        } catch(e) { }
+    };
+    var n = document.getElementsByTagName('script')[0],
+        s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://chat.s3.yandex.net/widget.js';
+    n.parentNode.insertBefore(s, n);
+})();
