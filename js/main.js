@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
 
 });
 
-/*Чат от yandex*/ 
+/*Чат от yandex
 (function () {
     window['yandexChatWidgetCallback'] = function() {
         try {
@@ -75,3 +75,4 @@ jQuery(document).ready(function($) {
     s.src = 'https://chat.s3.yandex.net/widget.js';
     n.parentNode.insertBefore(s, n);
 })();
+*/ 
