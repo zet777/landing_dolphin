@@ -49,7 +49,9 @@
 	.is-request-sm{
 		display: none!important;
 	}
-	
+	#particles-js{
+		display: none;
+	}
 
 }
 
